@@ -1,0 +1,36 @@
+.banner_img {
+    width: 100%;
+}
+h2 {
+    color: #CFB53B;
+    float: right;
+    font-size: 43px;
+    margin-right: 5%;
+}
+.map {
+    padding: 0px;
+}
+
+input {
+    border: 1px solid #CFB53B;
+    background-color: transparent;
+}
+select {
+    border: 1px solid #CFB53B;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #CFB53B;
+    opacity: 1; /* Firefox */
+	padding-left: 20px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #CFB53B;
+	padding-left: 20px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #CFB53B;
+	padding-left: 20px;
+}
