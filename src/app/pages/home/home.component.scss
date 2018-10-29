@@ -15,51 +15,29 @@ h2 {
     color: #CFB53B;
     float: right;
     font-size: 43px;
-    margin-right: 5%;
+    margin-right: 12%;
+}
+
+.row {
+    margin-top: 6%;
+}
+
+.col-sm-8 {
+    border-left: 2px solid #CFB53B;
+    padding: 0 4%;
+}
+
+.col-sm-2 {
+    margin-left: 6%;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+    }
 }
 p {
     color: #CFB53B;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-/* Create two columns that floats next to each other */
-.column1 {
-    float: left;
-    width: 20%;
-    height: 150px; /* Should be removed. Only for demonstration */
-
-    img {
-            margin-left: 60%;
-            margin-top: 45%;
-    }
-}
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column2 {
-    float: left;
-    width: 80%;
-    padding: 10px;
-    border-left: 2px solid #CFB53B;
-}
-
-.column3 {
-    float: left;
-    width: 80%;
-    padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
