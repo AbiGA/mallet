@@ -21,6 +21,7 @@ export class ContactComponent implements OnInit {
     return new FormGroup({
       personalData: new FormGroup({
         name: new FormControl(),
+        phone1: new FormControl(),
         phone: new FormControl(),
         options: new FormControl(),
         subject: new FormControl(),
