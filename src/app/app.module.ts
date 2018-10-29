@@ -10,6 +10,7 @@ import { ComingupComponent } from '../app/pages/comingup/comingup.component';
 import { ContactComponent } from '../app/pages/contact/contact.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HeaderComponent } from './components/header/header.component';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
