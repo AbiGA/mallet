@@ -40,45 +40,4 @@ p {
     color: #CFB53B;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-/* Create two columns that floats next to each other */
-.column1 {
-    float: left;
-    width: 20%;
-    height: 150px; 
-
-    img {
-            margin-left: 60%;
-            margin-top: 45%;
-    }
-}
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; 
- }
-.column2 {
-    float: left;
-    width: 72%;
-    padding: 10px 3%;
-    border-left: 2px solid #CFB53B;
-}
-
-.column3 {
-    float: left;
-    width: 80%;
-    padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
