@@ -15,7 +15,26 @@ h2 {
     color: #CFB53B;
     float: right;
     font-size: 43px;
-    margin-right: 5%;
+    margin-right: 12%;
+}
+
+.row {
+    margin-top: 6%;
+}
+
+.col-sm-8 {
+    border-left: 2px solid #CFB53B;
+    padding: 0 4%;
+}
+
+.col-sm-2 {
+    margin-left: 6%;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+    }
 }
 p {
     color: #CFB53B;
@@ -29,7 +48,7 @@ p {
 .column1 {
     float: left;
     width: 20%;
-    height: 150px; /* Should be removed. Only for demonstration */
+    height: 150px; 
 
     img {
             margin-left: 60%;
@@ -40,13 +59,12 @@ p {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-
+    height: 300px; 
+ }
 .column2 {
     float: left;
-    width: 80%;
-    padding: 10px;
+    width: 72%;
+    padding: 10px 3%;
     border-left: 2px solid #CFB53B;
 }
 
@@ -62,4 +80,5 @@ p {
     display: table;
     clear: both;
 }
+
 
