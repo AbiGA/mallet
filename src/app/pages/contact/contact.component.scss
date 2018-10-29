@@ -48,11 +48,7 @@ select {
 	padding-left: 20px;
 }
 
-<<<<<<< HEAD
 input, select {
-=======
-input[formControlName=phone],input[formControlName=subject], input[formControlName=message], select {
->>>>>>> b4eb4e8cd4ea81825ed6c0b2c646b78eaeeeb877
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -69,11 +65,7 @@ input[formControlName=phone],input[formControlName=subject], input[formControlNa
     }
 }
 
-<<<<<<< HEAD
 input[formControlName=name],input[formControlName=phone1] {
-=======
-input[formControlName=name] {
->>>>>>> b4eb4e8cd4ea81825ed6c0b2c646b78eaeeeb877
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -84,20 +76,6 @@ input[formControlName=name] {
     border: 1px solid #CFB53B;
 }
 
-<<<<<<< HEAD
-
-=======
-input[formControlName=phone1] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #CFB53B;
-    border: 1px solid #CFB53B;
-}
->>>>>>> b4eb4e8cd4ea81825ed6c0b2c646b78eaeeeb877
 
 button[type=submit] {
     background-color: #CFB53B;

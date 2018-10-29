@@ -9,12 +9,8 @@
 <div>
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
   <div formGroupName="personalData" novalidate>
-<<<<<<< HEAD
     <input formControlName="name" placeholder="Name">
     <input formControlName="phone1" placeholder="Phone">
-=======
-    <input formControlName="name" placeholder="Name"><input formControlName="phone1" placeholder="Phone"><br>
->>>>>>> b4eb4e8cd4ea81825ed6c0b2c646b78eaeeeb877
     <input formControlName="phone" placeholder="Phone"><br>
     <select formControlName="option" placeholder="Option" >
         <option [value]="option" value="select"> Option1 </option>
