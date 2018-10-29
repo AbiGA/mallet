@@ -4,7 +4,8 @@
 <div>
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
   <div formGroupName="personalData" novalidate>
-    <input formControlName="name" placeholder="Name"><br>
+    <input formControlName="name" placeholder="Name">
+    <input formControlName="phone1" placeholder="Phone">
     <input formControlName="phone" placeholder="Phone"><br>
     <select formControlName="option" placeholder="Option" >
         <option [value]="option" value="select"> Option1 </option>
@@ -12,10 +13,10 @@
         <option [value]="option" value="select"> Option3 </option>
   <!--  <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> --> 
     </select><br>
-    <input formControlName="subject"><br>
-    <input formControlName="message"><br>
+    <input formControlName="subject" placeholder="Subject"><br>
+    <input formControlName="message" placeholder="Message"><br>
   </div>
-  <button type="submit" [disabled]="contactForm.pristine">Submit</button><br>
+  <button type="submit" [disabled]="contactForm.pristine">SEND</button><br>
 </form>
 </div>
 <div class="row">

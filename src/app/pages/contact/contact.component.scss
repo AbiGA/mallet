@@ -1,6 +1,14 @@
 .banner_img {
     width: 100%;
 }
+
+a {
+    top: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
 h2 {
     color: #CFB53B;
     float: right;
@@ -9,6 +17,11 @@ h2 {
 }
 .map {
     padding: 0px;
+}
+
+form {
+    width: 50%;
+    margin: 6% auto;
 }
 
 input {
@@ -35,8 +48,25 @@ select {
 	padding-left: 20px;
 }
 
-input[formControlName=name],input[formControlName=phone],input[formControlName=subject], input[formControlName=message], select {
+input, select {
     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent; 
+    color: #CFB53B;
+    border: 1px solid #CFB53B;
+
+    option {
+        color: #CFB53B;
+        background-color: black;
+    }
+}
+
+input[formControlName=name],input[formControlName=phone1] {
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -44,19 +74,18 @@ input[formControlName=name],input[formControlName=phone],input[formControlName=s
     box-sizing: border-box;
     color: #CFB53B;
     border: 1px solid #CFB53B;
-
-    option {
-        color: #CFB53B;
-    }
 }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
+
+
+button[type=submit] {
+    background-color: #CFB53B;
+    color: black;
+    padding: 14px 35px;
+    font-size: 18px;
     margin: 8px 0;
     border: none;
+    margin-left: 2%;
     border-radius: 4px;
     cursor: pointer;
 }
