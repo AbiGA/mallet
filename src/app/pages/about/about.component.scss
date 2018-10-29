@@ -8,48 +8,44 @@ h2 {
     font-size: 43px;
     margin-right: 5%;
 }
-p {
-    color: #CFB53B;
+
+.row {
+    margin-top: 6%;
 }
 
-* {
-    box-sizing: border-box;
+.col-sm-10 {
+    border-left: 2px solid #CFB53B;
+    padding: 0 3%;
+}
+.col-md-10 {
+    border-left: 2px solid #CFB53B;
+    padding: 0 3%;
 }
 
-/* Create two columns that floats next to each other */
-.column1 {
-    float: left;
-    width: 20%;
-    height: 150px; /* Should be removed. Only for demonstration */
-
+.col-sm-2 {
     img {
-            margin-left: 60%;
-            margin-top: 45%;
+        position: absolute;
+        top: 32%;
+        left: 60%;
     }
 }
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+
+ .col-md-2  {
+    img {
+        position: absolute;
+        top: 32%;
+        left: 60%;
+    }
 }
 
-.column2 {
-    float: left;
-    width: 80%;
-    padding: 10px;
-    border-left: 2px solid #CFB53B;
+p {
+    color: #CFB53B;
+    width: 90%;
 }
 
-.column3 {
-    float: left;
-    width: 80%;
+
+.row_chisel {
+    margin-left: 7%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 

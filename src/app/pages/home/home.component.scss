@@ -22,22 +22,26 @@ h2 {
     margin-top: 6%;
 }
 
-.col-sm-8 {
+.col-sm-10 {
     border-left: 2px solid #CFB53B;
-    padding: 0 4%;
+    padding: 0 3%;
 }
 
 .col-sm-2 {
-    margin-left: 6%;
-
     img {
         position: absolute;
-        top: 50%;
+        top: 32%;
         left: 60%;
     }
 }
+
+
 p {
     color: #CFB53B;
+    width: 90%;
 }
 
+.row_chisel {
+    margin-left: 7%;
+}
 
