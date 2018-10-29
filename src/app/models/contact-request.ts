@@ -7,6 +7,7 @@ export class ContactRequest {
   
   export class PersonalData {
     name: string = '';
+    phone1: string = '';
     phone: string = '';
     options: string = '';
     subject: string = '';
