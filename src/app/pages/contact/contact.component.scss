@@ -1,6 +1,14 @@
 .banner_img {
     width: 100%;
 }
+
+a {
+    top: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
 h2 {
     color: #CFB53B;
     float: right;
@@ -50,13 +58,14 @@ input[formControlName=name],input[formControlName=phone],input[formControlName=s
     }
 }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
+button[type=submit] {
+    background-color: #CFB53B;
+    color: black;
+    padding: 14px 35px;
+    font-size: 18px;
     margin: 8px 0;
     border: none;
+    margin-left: 1%;
     border-radius: 4px;
     cursor: pointer;
 }
