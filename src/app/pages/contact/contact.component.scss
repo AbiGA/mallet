@@ -7,6 +7,7 @@ a {
     position: absolute;
     left: 50%;
     top: 50%;
+    cursor: pointer;
 }
 
 h2 {
@@ -35,20 +36,23 @@ select {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #CFB53B;
     opacity: 1; /* Firefox */
-	padding-left: 20px;
+    padding-left: 20px;
+    font-size: 16px;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #CFB53B;
-	padding-left: 20px;
+    padding-left: 20px;
+    font-size: 16px;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #CFB53B;
-	padding-left: 20px;
+    padding-left: 20px;
+    font-size: 16px;
 }
 
-input, select {
+input, select, textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -58,10 +62,12 @@ input, select {
     background-color: transparent; 
     color: #CFB53B;
     border: 1px solid #CFB53B;
+    font-size: 16px;
 
     option {
         color: #CFB53B;
         background-color: black;
+        font-size: 16px;
     }
 }
 
@@ -82,7 +88,7 @@ button[type=submit] {
     color: black;
     padding: 14px 35px;
     font-size: 18px;
-    margin: 8px 0;
+    margin: -16px 0;
     border: none;
     margin-left: 2%;
     border-radius: 4px;
@@ -98,16 +104,17 @@ div {
     padding: 20px;
 }
 
+
+
 @media only screen and (max-width: 670px) {
     input[formControlName=name],input[formControlName=phone1] {
         width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border-radius: 4px;
-        box-sizing: border-box;
-        color: #CFB53B;
-        border: 1px solid #CFB53B;
     }
+
+    button[type=submit] {
+        margin: -15px 0;
+        margin-left: 7%;
+    }
+    
     
 }

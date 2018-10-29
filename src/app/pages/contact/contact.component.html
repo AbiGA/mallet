@@ -11,15 +11,16 @@
   <div formGroupName="personalData" novalidate>
     <input formControlName="name" placeholder="Name">
     <input formControlName="phone1" placeholder="Phone">
-    <input formControlName="phone" placeholder="Phone"><br>
+    <input formControlName="phone" placeholder="Phone">
     <select formControlName="option" placeholder="Option" >
         <option [value]="option" value="select"> Option1 </option>
         <option [value]="option" value="select"> Option2 </option>
         <option [value]="option" value="select"> Option3 </option>
   <!--  <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> --> 
-    </select><br>
+    </select>
     <input formControlName="subject" placeholder="Subject"><br>
-    <input formControlName="message" placeholder="Message"><br>
+    <textarea class="form-control" formControlName="message" rows="5" minlength="8" maxlength="100" placeholder="Message">
+    </textarea>
   </div>
   <button type="submit" [disabled]="contactForm.pristine">SEND</button><br>
 </form>
