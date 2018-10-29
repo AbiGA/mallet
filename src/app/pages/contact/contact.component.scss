@@ -63,12 +63,22 @@ input, select, textarea {
     color: #CFB53B;
     border: 1px solid #CFB53B;
     font-size: 16px;
+    outline: none;
 
     option {
         color: #CFB53B;
         background-color: black;
         font-size: 16px;
     }
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+textarea:focus {
+    background-color: black;
+    outline: none;
 }
 
 input[formControlName=name],input[formControlName=phone1] {
@@ -80,6 +90,7 @@ input[formControlName=name],input[formControlName=phone1] {
     box-sizing: border-box;
     color: #CFB53B;
     border: 1px solid #CFB53B;
+    outline: none;
 }
 
 
@@ -93,6 +104,7 @@ button[type=submit] {
     margin-left: 2%;
     border-radius: 4px;
     cursor: pointer;
+    outline: none;
 }
 
 input[type=submit]:hover {
