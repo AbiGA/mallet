@@ -7,7 +7,7 @@
     <input formControlName="name" placeholder="Name"><br>
     <input formControlName="phone" placeholder="Phone"><br>
     <select formControlName="option" placeholder="Option" >
-        <option selected> Select Box </option>
+        <option selected> Select</option>
         <option [value]="option" value="select"> Option1 </option>
         <option [value]="option" value="select"> Option2 </option>
         <option [value]="option" value="select"> Option3 </option>
@@ -16,8 +16,7 @@
     <input formControlName="subject"><br>
     <input formControlName="message"><br>
   </div>
-  <button type="submit" [disabled]="contactForm.pristine">Save</button><br>
-  <button type="reset" (click)="revert()" [disabled]="contactForm.pristine">Revert</button>
+  <button type="submit" [disabled]="contactForm.pristine">Submit</button><br>
 </form>
 </div>
 <div class="row">
