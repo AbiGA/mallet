@@ -1,7 +1,7 @@
 .container-fluid .row {
-    border-bottom: 1px solid #CFB53B;
-    border-top: 1px solid #CFB53B;  
-    background-color: black; 
+    border-bottom: 1px solid  #8f7d4f;
+    border-top: 1px solid  #8f7d4f;  
+    background-color: #141414; 
 }
 .row {
     background-color: #eaeef2;
@@ -9,7 +9,7 @@
 }
 .menu {
     display: flex;
-    border: #CFB53B;
+    border: #8f7d4f;
     background-color: transparent;
     text-align: center;
 }
@@ -31,7 +31,7 @@ img {
         display: inline;
         padding: 25px;
         text-transform: uppercase;
-        color: #CFB53B;
+        color:  #8f7d4f;
         cursor: pointer;
         outline: none;
     }
@@ -45,6 +45,6 @@ img {
 
  
   .main-menu {
-      background-color: black;
+      background-color: #141414;
       
   }
