@@ -32,6 +32,10 @@ export class ContactComponent implements OnInit {
     });
   }
 
+  scroll(el) {
+    el.scrollIntoView();
+}
+
   ngOnInit() {
   }
 
