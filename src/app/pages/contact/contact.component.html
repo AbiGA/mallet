@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+      rel="stylesheet">      
 <img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
-<a (click)="scroll(target)" style="color:white;"><i [ngx-scroll-to]="'scrolldestination'" style="color:white;" class="material-icons">
+<a (click)="scroll(target)" style="color:white;"><i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
   arrow_downward
   </i>Scroll</a>
 <h2 id="scrolldestination"><u>Contact</u></h2>
@@ -19,7 +19,7 @@
   <!--  <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> --> 
     </select>
     <input formControlName="subject" placeholder="Subject"><br>
-    <textarea class="form-control" formControlName="message" rows="5" minlength="8" maxlength="100" placeholder="Message">
+    <textarea class="form-control" formControlName="message" rows="5" placeholder="Message">
     </textarea>
   </div>
   <button type="submit" [disabled]="contactForm.pristine">SEND</button><br>

@@ -1,3 +1,7 @@
+.logo {
+    height: 120px;
+    text-align: center;
+}
 .container-fluid .row {
     border-bottom: 1px solid  #8f7d4f;
     border-top: 1px solid  #8f7d4f;  
@@ -15,9 +19,8 @@
 }
 
 img {
-    position: absolute;
-    left: 50%;
-    top: 2%;
+    position: relative;
+    top: 16%;
 }
 
  ul.menu-items {
