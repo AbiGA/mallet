@@ -70,4 +70,25 @@ p {
     text-align: center;
 }
 
+@media (max-width: 670px) {
+   .col-sm-4, .col-md-2, .col-lg-2 {
+        img {
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+    }
 
+    h2 {
+        margin: 0 auto;
+        font-size: 40px;
+    }
+
+
+    p {
+        color: #8f7d4f;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+}
