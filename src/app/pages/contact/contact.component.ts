@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { Component } from '@angular/core';
+import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
 
 
 @Component({
@@ -7,36 +7,41 @@ import { FormControl, FormGroup } from '@angular/forms';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
 
-  contactForm: FormGroup;
   options = ['Option1', 'Option2', 'Option3', 'Option4'];
-
-
-  constructor() { 
-    this.contactForm = this.createFormGroup();
-  }
-
-  createFormGroup() {
-    return new FormGroup({
-      personalData: new FormGroup({
+  contactForm = new FormGroup({
         name: new FormControl(),
         phone1: new FormControl(),
         phone: new FormControl(),
         options: new FormControl(),
         subject: new FormControl(),
         message: new FormControl()
-       }),
-      requestType: new FormControl(),
-      text: new FormControl()
-    });
-  }
+  });
 
-  scroll(el) {
-    el.scrollIntoView();
+
+  constructor(private formBuilder: FormBuilder) { 
+    this.createForm();
 }
 
-  ngOnInit() {
+  createForm() {
+    this.contactForm = this.formBuilder.group({
+      name: '',
+      phone1: '',
+      phone: '',
+      options: '',
+      subject: '',
+      message: ''
+    });
+}
+
+scroll(el) {
+  el.scrollIntoView();
+}
+
+  onSubmit() {
+
   }
+
 
 }

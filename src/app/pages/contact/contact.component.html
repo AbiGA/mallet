@@ -1,25 +1,26 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">      
 <img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
-<a (click)="scroll(target)" style="color:white;"><i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
+<a [ngx-scroll-to]="'scrolldestination'" style="color:white;"><i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
   arrow_downward
   </i>Scroll</a>
 <h2 id="scrolldestination"><u>Contact</u></h2>
 <br>
-<div #target>
+<div>
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
-  <div formGroupName="personalData" novalidate>
-    <input formControlName="name" placeholder="Name">
-    <input formControlName="phone1" placeholder="Phone">
-    <input formControlName="phone" placeholder="Phone">
-    <select formControlName="option" placeholder="Option" >
+  <div class="form-group">
+    <input class="form-group" formControlName="name" placeholder="Name">
+    <input class="form-group" formControlName="phone1" placeholder="Phone">
+    <input class="form-group" formControlName="phone" placeholder="Phone">
+    <select class="form-group" formControlName="options" placeholder="Option">
+        <option value="" disabled selected>Select your option</option>
         <option [value]="option" value="select"> Option1 </option>
         <option [value]="option" value="select"> Option2 </option>
         <option [value]="option" value="select"> Option3 </option>
   <!--  <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> --> 
     </select>
-    <input formControlName="subject" placeholder="Subject"><br>
-    <textarea class="form-control" formControlName="message" rows="5" placeholder="Message">
+    <input class="form-group" formControlName="subject" placeholder="Subject"><br>
+    <textarea class="form-group" formControlName="message" rows="5" placeholder="Message">
     </textarea>
   </div>
   <button type="submit" [disabled]="contactForm.pristine">SEND</button><br>
