@@ -6,17 +6,39 @@
 <div class="main-menu">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-9 col-md-9 col-xs-12 menu">
-        <ul class="menu-items">
-          <li routerLink="">Home</li>
-          <li routerLink="/about">About</li>
-          <li routerLink= "/products">Products</li>
-          <li routerLink="/comingup">Coming up</li> 
-          <li routerLink="/contact">Contact us</li>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 col-md-8 col-xs-12 menu">
+              <nav class="navbar navbar-expand-lg navbar-dark">
+                  <a class="navbar-brand" href="#">
+                  </a>
+                  <button class="navbar-toggler" type="button"
+                  (click)="toggleNavbar()">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                [ngClass]="{ 'show': navbarOpen }">
+            <ul class="navbar-nav mr-auto menu-items">
+              <li class="nav-item" routerLink="">Home</li>
+              <li class="nav-item" routerLink="/about">About</li>
+              <li routerLink= "/products">Products</li>
+              <li routerLink="/comingup">Coming up</li> 
+              <li routerLink="/contact">Contact us</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="col-sm-2 col-md-2 col-xs-12 menu">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="collapse navbar-collapse"
+            [ngClass]="{ 'show': navbarOpen }">
+        <ul class="navbar-nav mr-auto menu-items">
           <a href="http://www.facebook.com" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
           <a href="http://www.instagram.com" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
         </ul>
       </div>
-    </div>
+    </nav>
+  </div>
+  </div>
   </div>
 </div>
+
