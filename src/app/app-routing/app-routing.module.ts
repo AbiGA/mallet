@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'contactus', component: ContactComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'comingup', component: ComingupComponent },
   { path: "**", redirectTo: "error-404" }
