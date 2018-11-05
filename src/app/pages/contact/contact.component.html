@@ -1,23 +1,21 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">      
-<img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
-<a [ngx-scroll-to]="'scrolldestination'" style="color:white;"><i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
+      <img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
+<a [ngx-scroll-to]="'scrolldestination'" style="color:white;">Scroll</a>
+<i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
   arrow_downward
-  </i>Scroll</a>
+  </i>
 <h2 id="scrolldestination"><u>Contact</u></h2>
 <br>
 <div>
-<form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
+<form [formGroup]="contactForm" (ngSubmit)="submitForm()" novalidate>
   <div class="form-group">
     <input class="form-group" formControlName="name" placeholder="Name">
     <input class="form-group" formControlName="phone1" placeholder="Phone">
     <input class="form-group" formControlName="phone" placeholder="Phone">
     <select class="form-group" formControlName="options" placeholder="Option">
-        <option value="" disabled selected>Select your option</option>
-        <option [value]="option" value="select"> Option1 </option>
-        <option [value]="option" value="select"> Option2 </option>
-        <option [value]="option" value="select"> Option3 </option>
-  <!--  <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> --> 
+        <option value="" disabled selected>Option</option>
+        <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> 
     </select>
     <input class="form-group" formControlName="subject" placeholder="Subject"><br>
     <textarea class="form-group" formControlName="message" rows="5" placeholder="Message">
