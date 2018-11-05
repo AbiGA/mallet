@@ -3,14 +3,36 @@
     width: 100%;
 }
 
+.col-border {
+    position: relative;
+  }
+  
+  .col-border :before {
+    content: " ";
+    position: absolute;
+    border-left: 1px #8f7d4f solid;
+    top: 23%;
+    left: 0;
+    height: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
 a {
     top: 0;
     position: absolute;
-    left: 50%;
+    left: 50.5%;
     top: 50%;
     cursor: pointer;
 }
-
+i {
+    top: 1%;
+    position: absolute;
+    left: 51%;
+    top: 53%;
+    cursor: pointer;
+    color:white;
+}
 h2 {
     color: #8f7d4f;
     float: right;

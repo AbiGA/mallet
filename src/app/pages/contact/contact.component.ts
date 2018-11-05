@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
+import { ContactformService } from '../../services/contactform.service';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class ContactComponent {
   });
 
 
-  constructor(private formBuilder: FormBuilder) { 
+  constructor(private formBuilder: FormBuilder, private formService: ContactformService) { 
     this.createForm();
 }
 
@@ -35,13 +36,17 @@ export class ContactComponent {
     });
 }
 
-scroll(el) {
+/*scroll(el) {
   el.scrollIntoView();
+} */
+
+submitForm(data) { console.log(data);
+  this.formService.sendEmail(data)
+    .subscribe(res => {
+      console.log("Mail sent", res);
+    }, error => {
+      console.log("Failed",error);
+    });
 }
-
-  onSubmit() {
-
-  }
-
 
 }

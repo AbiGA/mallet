@@ -1,13 +1,14 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">      
-<img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
-<a [ngx-scroll-to]="'scrolldestination'" style="color:white;"><i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
+      <img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
+<a [ngx-scroll-to]="'scrolldestination'" style="color:white;">Scroll</a>
+<i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
   arrow_downward
-  </i>Scroll</a>
+  </i>
 <h2 id="scrolldestination"><u>Contact</u></h2>
 <br>
 <div>
-<form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
+<form [formGroup]="contactForm" (ngSubmit)="submitForm()" novalidate>
   <div class="form-group">
     <input class="form-group" formControlName="name" placeholder="Name">
     <input class="form-group" formControlName="phone1" placeholder="Phone">
