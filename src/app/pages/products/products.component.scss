@@ -1,0 +1,39 @@
+h2 {
+    color: #8f7d4f;
+    float: right;
+    font-size: 54px;
+    margin-right: 12%;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-sm-8, .col-md-10, .col-lg-10{
+    margin: 0 auto;
+    border-left: 2px solid #8f7d4f;
+    padding: 0 3%;
+}
+
+.col-md-2, .col-lg-2 {
+    
+    img {
+        position: relative;
+    }
+}
+
+.col-sm-4 {
+    text-align: center;
+    img {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+
+    }
+}
+
+p {
+    color: #8f7d4f;
+    width: 90%;
+    font-size: 20px;
+}
