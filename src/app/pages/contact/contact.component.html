@@ -4,10 +4,10 @@
 <a [ngx-scroll-to]="'scrolldestination'" style="color:white;">Scroll</a>
 <i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
   arrow_downward
-  </i>
-<h2 id="scrolldestination"><u>Contact</u></h2>
+</i>
 <br>
-<div>
+<div id="scrolldestination" style="width: auto;">
+    <h2 style="margin-right: 26%;"><u>Contact</u></h2>
 <form [formGroup]="contactForm" (ngSubmit)="submitForm()" novalidate>
   <div class="form-group">
     <input class="form-group" formControlName="name" placeholder="Name">
