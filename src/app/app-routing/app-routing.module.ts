@@ -6,6 +6,7 @@ import { AboutComponent } from '../pages/about/about.component';
 import { ProductsComponent } from '../pages/products/products.component';
 import { ComingupComponent } from '../pages/comingup/comingup.component';
 import { ContactComponent } from '../pages/contact/contact.component';
+import { ProductsinsideComponent } from '../pages/productsinside/productsinside.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'products', component: ProductsComponent },
+  { path: 'productsinside', component:ProductsinsideComponent },
   { path: 'comingup', component: ComingupComponent },
   { path: "**", redirectTo: "error-404" }
 ];

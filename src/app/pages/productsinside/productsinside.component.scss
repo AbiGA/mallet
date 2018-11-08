@@ -1,0 +1,54 @@
+.container-fluid, .container{
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+.container {
+    text-align: center;
+}
+h2 {
+    color: #8f7d4f;
+    font-size: 52px;
+}
+p {
+    color: #8f7d4f;
+}
+.pie {
+    h2 {
+        position: absolute;
+        left: 0;
+    
+        p {
+            display: flex;
+            left: 0;
+            font-size: 20px;
+        }
+    }
+}
+
+.story {
+    text-align: right;
+   .col h2 {
+        position: absolute;
+        top: 25%;
+        left: 22%;
+    }
+   .col p {
+        position: absolute;
+        top: 40%;
+        text-align: justify;
+        left: 23%;
+        width: 90%;
+    }
+}
+
+.deisgn {
+    .col h2 {
+        position: absolute;
+        top: 30%;
+    }
+    .col p {
+        position: absolute;
+        top: 40%;
+        width: 80%;
+    }
+}

@@ -1,7 +1,9 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
 <div class="container-fluid">
     <h2>Our <u>Products</u></h2>
-  <div class="row">
+  <div class="row" style="padding-top: 5%;">
       <div class="col-sm-4 col-md-2 col-lg-2 class-col-sm-4">
           <img src="../../../assets/images/icon on home page.png">
       </div>
@@ -11,9 +13,11 @@
              over each curve, corner, edge and angle…</p>
       </div>
   </div>
-  <div class="row" style="margin-top:5%">
+  <div class="row">
     <div class="col-sm-4 center_flex">
-      <h2>Lucerna</h2>
+      <h2>Lucerna<br><span>learn more <a [routerLink]="['/productsinside']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h2>
     </div>
     <div class="col-sm-2 center_flex">
       <img src="../../../assets/images/products/lucerna.png">
@@ -28,7 +32,7 @@
       </p>
     </div>
   </div>
-  <div class="row" style="text-align: center; padding-top: 13%;">
+  <div class="row" style="text-align: center;">
       <div class="col">
           <img src="../../../assets/images/products/pick.png">
         </div>
@@ -40,7 +44,7 @@
           </div>
     </div>
 
-    <div class="row" style="margin-top: 13%;">
+    <div class="row">
         <div class="col-sm-8 center_flex" style="border-left: none;">
           <p class="class_p">
              The Bratus Collection reflects a close connection to nature, and represents the beauty
@@ -51,13 +55,15 @@
         <div class="col-sm-2 center_flex">
           <img src="../../../assets/images/products/bratus.png">
         </div>
-        <div class="col-sm-2" style="display: flex;">
-          <h2>Bratus</h2>
+        <div class="col-sm-2 bratus" style="display: flex;">
+          <h2>Bratus<br><span>learn more <a [routerLink]="['/productsinside']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h2>
         </div>
       </div>  
 
-      <div class="row" style="text-align: center; padding-top: 13%;">
-          <div class="col">
+      <div class="row" style="text-align: center;">
+          <div class="col" style="margin-left: 6%;">
               <img src="../../../assets/images/products/brats.png">
             </div>
             <div class="col">
@@ -67,9 +73,12 @@
                 <img src="../../../assets/images/products/arbor.png">
             </div>
         </div>
-        <div class="row" style="text-align: center; padding-top: 13%;">
-            <div class="col">
-                <h2>Stump Collection</h2>
+        <div class="row" style="text-align: center;">
+            <div class="col stump_collection">
+                <h2>Stump Collection<br><span>learn more <a [routerLink]="['/productsinside']"><i class="material-icons">
+                        arrow_right_alt
+                        </i></a></span></h2>
+               
               <p class="class_p" style="right: 0;">
                  The Stump Collection is inspired by the symmetry of shapes and forms both
                  imagined and discovered in nature. The strong lines and assertive presence
@@ -78,7 +87,23 @@
                 </p>
             </div>
             <div class="col">
-                <img src="../../../assets/images/products/stump.png" class="responsive">
+                <img src="../../../assets/images/products/stump.png">
             </div>
         </div> 
+
+        <div class="row" style="margin-right: 10%;">
+          <div class="col center_flex">
+            <img src="../../../assets/images/products/wing collection.png">
+            <h3>Wing Collection<br><span>learn more <a [routerLink]="['/productsinside']">
+                <i class="material-icons">
+                    arrow_right_alt
+                    </i></a></span></h3>
+          </div>
+          <div class="col wing_collection">
+            <p class="class_p">
+               Let your mind take flight with the Wing Collection. We channel the
+               aerodynamism, sleekness and the precise technical skill involved in
+               creating supersonic jets in this collection.</p>
+          </div>
+        </div>
 </div>
