@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HeaderComponent } from './components/header/header.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProductsinsideComponent } from './pages/productsinside/productsinside.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ComingupComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProductsinsideComponent
   ],
   imports: [
     BrowserModule,

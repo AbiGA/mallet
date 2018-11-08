@@ -13,6 +13,7 @@
     margin-bottom: auto;
   }
 
+
 .class_a {
     top: 0;
     position: absolute;
@@ -39,9 +40,12 @@ h2 {
     width: 100%;
 }
 
+.column_border {
+    border-left: 2px solid #8f7d4f;
+}
+
 .col-sm-8, .col-md-10, .col-lg-10{
     margin: 0 auto;
-    border-left: 2px solid #8f7d4f;
     padding: 0 3%;
 }
 
