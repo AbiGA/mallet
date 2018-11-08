@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-productsinside',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsinsideComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {
+   }
 
-  ngOnInit() {
+   scroll(el) {
+    el.scrollIntoView();
   }
 
+  ngOnInit() {
+    this.router.events.subscribe(() =>
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      })
+    );
+  }
+  
 }
