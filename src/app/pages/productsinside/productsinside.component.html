@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-sm-4 col-xs-12">
-      <img src="../../../assets/images/productinside/pie 1.png">
+      <img src="{{mainimage}}">
     </div>
     <div class="col-sm-6 col-xs-12 pie">
       <h2>Pie Sectional Seating<br><br><p>Material: Beech</p><p>Catgeory: Casual Seating area; Sofa</p></h2>
@@ -13,13 +13,13 @@
 <div class="container">
     <div class="row">
         <div class="col">
-          <img src="../../../assets/images/productinside/pie 6.png">
+          <img src="{{image1}}" (click)="changeMainImage(image1_large)" title="click here">
         </div>
         <div class="col">
-          <img src="../../../assets/images/productinside/pie 2.png">
+          <img src="{{image2}}" (click)="changeMainImage(image2_large)" title="click here">
         </div>
         <div class="col">
-          <img src="../../../assets/images/productinside/pie 7.png">
+          <img src="{{image3}}" (click)="changeMainImage(image3_large)" title="click here">
         </div>
       </div>
 </div>
@@ -39,7 +39,8 @@
       <img src="../../../assets/images/productinside/pie 4.png">
     </div>
   </div>
-
+  <img class="banner_img" src="../../../assets/images/productinside/pie inside.png">
+  <br>
   <div class="row deisgn">
     <div class="col">
       <img src="../../../assets/images/productinside/pie 3.png">
