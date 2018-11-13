@@ -44,6 +44,7 @@ img {
      li {
         display: inline;
         padding: 15px;
+        font-size: 14px;
         text-transform: uppercase;
         color:  #8f7d4f;
         cursor: pointer;
@@ -62,3 +63,11 @@ img {
       background-color: #141414;
       
   }
+
+  @media (max-width: 1024px) {
+    ul.menu-items {
+        li {
+        margin-left: 2%;
+    }
+  }
+}
