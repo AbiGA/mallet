@@ -45,3 +45,38 @@ p {
         margin-top: 10%;
     }
 }
+
+@media (max-width: 768px) {
+    .zoomed_image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 670px) {
+    .img_class {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+    .col_story {
+        text-align: left;
+    }
+    .deisgn {
+        .col p {
+            width: 100%;
+        }
+    }
+
+    .story {
+       .col p {
+            text-align: start;
+            width: 100%;
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 35px;
+        text-align: center;
+    }
+ }
