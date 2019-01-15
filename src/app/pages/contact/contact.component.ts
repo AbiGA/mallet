@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
 import { ContactformService } from '../../services/contactform.service';
+import {Router} from "@angular/router"
 
 
 @Component({
@@ -10,7 +11,7 @@ import { ContactformService } from '../../services/contactform.service';
 })
 export class ContactComponent {
 
-  options = ['Option1', 'Option2', 'Option3', 'Option4'];
+  options = ['Book a studio visit', 'Request a quote'];
   contactForm = new FormGroup({
         name: new FormControl(),
         phone1: new FormControl(),
@@ -21,7 +22,7 @@ export class ContactComponent {
   });
 
 
-  constructor(private formBuilder: FormBuilder, private formService: ContactformService) { 
+  constructor(private formBuilder: FormBuilder, private formService: ContactformService, private router: Router) { 
     this.createForm();
 }
 
@@ -43,6 +44,8 @@ export class ContactComponent {
 submitForm(data) { console.log(data);
   this.formService.sendEmail(data)
     .subscribe(res => {
+      alert("Contact form successfully submitted. Thank you, We will get back to you soon!");
+      this.router.navigate(['/home']);
       console.log("Mail sent", res);
     }, error => {
       console.log("Failed",error);

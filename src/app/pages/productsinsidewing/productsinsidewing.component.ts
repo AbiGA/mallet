@@ -11,15 +11,13 @@ export class ProductsinsidewingComponent implements OnInit {
   constructor(private router: Router) {
   }
 
- image1 = "../../../assets/images/productinside/pie 6.png";
- image2 = "../../../assets/images/productinside/pie 2.png";
- image3 = "../../../assets/images/productinside/pie 7.png";
+ image1 = "../../../assets/images/productinside/wingcollection/Wing1/wing11.png";
+ image2 = "../../../assets/images/productinside/wingcollection/Wing1/wing12.png";
 
- image1_large = "../../../assets/images/productinside/pie 6_zoom.png";
- image2_large = "../../../assets/images/productinside/pie 2_zoom.png";
- image3_large = "../../../assets/images/productinside/pie 7_zoom.png";
+ image1_large = "../../../assets/images/productinside/wingcollection/Wing1/wing11.png";
+ image2_large = "../../../assets/images/productinside/wingcollection/Wing1/wing12.png";
 
- mainimage = "../../../assets/images/productinside/pie 1.png";
+ mainimage = "../../../assets/images/productinside/wingcollection/Wing1/wing11.png";
 
  changeMainImage(image: any){
    this.mainimage = image;
@@ -37,5 +35,8 @@ export class ProductsinsidewingComponent implements OnInit {
      })
    );
  }
+ ngAfterViewInit() {
+  window.scrollTo(0, 0);
+}
  
 }

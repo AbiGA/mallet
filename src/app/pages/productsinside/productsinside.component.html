@@ -1,81 +1,75 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <div class="container-fluid">
     <div class="row">
       <div class="col-sm-2 col-xs-12"></div>
       <div class="col-sm-4 col-xs-12">
-        <img class="zoomed_image" src="{{mainimage}}">
+        <img class="zoomed_image" style="margin-top: -8%;" src="{{mainimage}}">
       </div>
       <div class="col-sm-6 col-xs-12 pie">
-        <h2>Pie Sectional Seating<br><br><p>Material: Beech</p><p>Catgeory: Casual Seating area; Sofa</p></h2>
+        <h2 class="product_heading">Lucerna<br><p>Material: Beech</p><p>Ambient Lighting;</p></h2>
       </div>
     </div>
   
-  
-  <div class="container">
-      <div class="row">
-          <div class="col">
-            <img src="{{image1}}" (click)="changeMainImage(image1_large)" title="click here">
-          </div>
-          <div class="col">
-            <img src="{{image2}}" (click)="changeMainImage(image2_large)" title="click here">
-          </div>
-          <div class="col">
-            <img src="{{image3}}" (click)="changeMainImage(image3_large)" title="click here">
-          </div>
-        </div>
-  </div>
     <div class="row story">
-      <div class="col">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-5">
           <h2>Story</h2>
-          <p>The crown jewel of the Lucerna collection. Low seating in an ergonomic design,
-              the form of which draws inspiration from the concept of "pi" in mathematics, a
-              rule of circles. The form reflects the concept of pi in many ways - every curve
-              in the product follows the radius of the same circle. Its unique shape sets it
-              apart from the run-of-the-mill seating options, a testament to the unorthodox
-              craftsmanship that was involved in creating it.</p>
-      </div>
-      <div class="col col_story">
-        <img class="img_class" src="../../../assets/images/productinside/pie 4.png">
-      </div>
-    </div>
-    <img class="banner_img" src="../../../assets/images/productinside/pie inside.png">
-    <br>
-    <div class="row deisgn">
-      <div class="col col_story">
-        <img class="img_class" src="../../../assets/images/productinside/pie 3.png">
-      </div>
-      <div class="col">
-        <h2>Design</h2>
-        <p>This design originated from a single line drawing. We then fleshed out the form in 3D,
-           working out the specifics of structural load transfer and the constraints of joinery.
-           This piece also reflects smart use of jigs and templates to create curves and tangents,
-           and effective use of machines; overall, the Pie Sectional is not only beautiful, but also
-           an effective and productive piece of furniture.
+          <p>Inspired by the flutes of Ionic pillars in Greek architecture, infused with design
+             elements from architecture in Bali, this eye-catching lighting accent has a contemporary,
+             elegant yet simple design, with a tropical twist.
           </p>
       </div>
+      <div class="col-sm-5 col_story" style="text-align: center;">
+        <img class="img_class" src="../../../assets/images/productinside/lucernacollection/Lucerna/Lucernainside1.png">
+      </div>
+      <div class="col-sm-1"></div>
     </div>
-    <h2>Similar Products</h2><br>
-    <div class="row" style="text-align: center;">
-      <div class="col">
-        <img src="../../../assets/images/productinside/relica.png">
+    <img class="banner_img" src="../../../assets/images/productinside/lucernacollection/Lucerna/Lucernainside.png">
+    <br>
+    <div class="row deisgn">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-5 col_story" style="text-align: center;">
+        <img class="img_class design_img" src="../../../assets/images/productinside/lucernacollection/Lucerna/Lucernainside2.png">
       </div>
-      <div class="col">
-          <img src="../../../assets/images/productinside/lucerna 1.png">
+      <div class="col-sm-5 design_text">
+        <h2>Design</h2>
+        <p>This piece was created by assembling tapered strips of beech with uniform gaps that exaggerate
+           its verticality, based on precise drawings and design. We incorporated bluetooth operated
+           lighting to ensure that unsightly wiring does not distract from the clean lines of the design.
+        </p>
       </div>
-      <div class="col">
-        <img src="../../../assets/images/productinside/stump inside.png">
-      </div>
+      <div class="col-sm-1"></div>
     </div>
-    <h2>Similar Products</h2><br>
+    <br/>
+    <div class="row similarproducts">
+      <div class="col-sm-1"></div>
+      <div class="col">
+          <h2>Similar Products</h2><br>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
     <div class="row" style="text-align: center;">
+      <div class="col-sm-1"></div>
       <div class="col">
-        <img src="../../../assets/images/productinside/relica.png">
+        <img style="height: 141.77px;" src="../../../assets/images/products/pick.png" title="Pick" [routerLink]="['/productlucernapick']">
+          <h4 style="margin-right: 0;" [routerLink]="['/productlucernapick']">Pick<br><span>learn more <a [routerLink]="['/productlucernapick']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h4>
       </div>
       <div class="col">
-          <img src="../../../assets/images/productinside/lucerna 1.png">
+        <img style="height: 141.77px;" src="../../../assets/images/products/obtuse.png" title="Obtuse Collection" [routerLink]="['/productlucernaobtuse']">
+        <h4 style="margin-right: 0;" [routerLink]="['/productlucernaobtuse']">Obtuse<br><span>learn more <a [routerLink]="['/productlucernaobtuse']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h4>
       </div>
       <div class="col">
-        <img src="../../../assets/images/productinside/stump inside.png">
+        <img style="height: 141.77px;" src="../../../assets/images/products/relica.png" title="Relica Collection" [routerLink]="['/productlucernarelica']">
+        <h4 style="margin-right: 0;" [routerLink]="['/productlucernarelica']">Relica<br><span>learn more <a [routerLink]="['/productlucernarelica']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h4>  
       </div>
+      <div class="col-sm-1"></div>
     </div>
   
   </div>

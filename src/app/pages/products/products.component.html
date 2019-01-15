@@ -1,28 +1,37 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-<img class="banner_img" src="../../../assets/images/products/products_hero.png">
-<div class="container-fluid">
-    <h2>Our <u>Products</u></h2>
-  <div class="row" style="padding-top: 5%;">
-      <div class="col-sm-4 col-md-2 col-lg-2 class-col-sm-4">
+<img class="banner_img banner">
+<div class="container-fluid" style="padding-bottom: 5%;">
+        <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <h2 class="product_heading"><u>Our  Products</u></h2>
+                </div>
+                <div class="col-sm-1"></div>  
+        </div>
+  <div class="row" style="padding-top: 1%;">
+     <!-- <div class="col-sm-4 col-md-2 col-lg-2 class-col-sm-4">
           <img src="../../../assets/images/icon on home page.png">
-      </div>
-      <div class="col-sm-8 col-md-10 col-lg-10" style="margin-top:1%;">
+      </div>-->
+      <div class="col-sm-1 col-md-1 col-lg1"></div>
+      <div class="col-sm-10 col-md-10 col-lg-10" style="margin-top:1%;">
           <p>We tell a story with each piece that balances form and fantasy, solidity and
              sophistication, tradition with transformation. Take your eye for a journey 
              over each curve, corner, edge and angle…</p>
       </div>
+      <div class="col-sm-1 col-md-1 col-lg1"></div>
   </div>
   <div class="row">
-    <div class="col-sm-4 center_flex">
-      <h2 [routerLink]="['/productlucerna']">Lucerna<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3">
+      <h4 style="margin-right: 0;" [routerLink]="['/productlucerna']">Lucerna Collection<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
             arrow_right_alt
-            </i></a></span></h2>
+            </i></a></span></h4>
     </div>
     <div class="col-sm-2 center_flex">
-      <img src="../../../assets/images/products/lucerna.png">
+      <img src="../../../assets/images/products/lucerna.png" title="Lucerna Collection" [routerLink]="['/productlucerna']">
     </div>
-    <div class="col-sm-6" style="border-left: none;">
+    <div class="col-sm-5" style="border-left: none;">
       <p class="class_p" style="left: 0;">
           Lucerna highlights the beauty of the curve, reflected in the form and structure
           of each piece. Each piece has been inspired by the symmetry and harmony of the
@@ -31,79 +40,112 @@
           tropical elements.
       </p>
     </div>
+    <div class="col-sm-1"></div>
   </div>
   <div class="row" style="text-align: center;">
+      <div class="col-sm-1"></div>
       <div class="col">
-          <img src="../../../assets/images/products/pick.png">
+          <img style="padding-bottom: 2%; height: 141.77px;" src="../../../assets/images/products/pick.png" title="Pick Collection" [routerLink]="['/productlucernapick']">
+          <h4 style="margin-right: 0;" [routerLink]="['/productlucernapick']">Pick<br><span>learn more<a [routerLink]="['/productlucernapick']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h4>
         </div>
         <div class="col">
-            <img src="../../../assets/images/products/obtuse.png">
+            <img style="padding-bottom: 2%; height: 141.77px;" src="../../../assets/images/products/obtuse.png" title="Obtuse Collection" [routerLink]="['/productlucernaobtuse']">
+            <h4 style="margin-right: 0;" [routerLink]="['/productlucernaobtuse']">Obtuse<br><span>learn more <a [routerLink]="['/productlucernaobtuse']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4>
         </div>
         <div class="col">
-            <img src="../../../assets/images/products/relica.png">
-          </div>
+            <img style="padding-bottom: 2%; height: 141.77px;" src="../../../assets/images/products/relica.png" title="Relica Collection" [routerLink]="['/productlucernarelica']">
+            <h4 style="margin-right: 0;" [routerLink]="['/productlucernarelica']">Relica<br><span>learn more <a [routerLink]="['/productlucernarelica']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4>  
+        </div>
+        <div class="col-sm-1"></div>
     </div>
 
+    <div class="row row_border"></div>
+  
     <div class="row">
-        <div class="col-sm-8 center_flex" style="border-left: none;">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3 center_flex trigano_text" style="border-left: none;">
           <p class="class_p">
              The Bratus Collection reflects a close connection to nature, and represents the beauty
              of nature’s contradictions: the rough edges of wood found in nature, with the precise,
              sleek measurements and forms created by man. The medley of these apparent opposites has
              created a singular collection that provides a small taste of the wild indoors.</p>
         </div>
-        <div class="col-sm-2 center_flex">
-          <img src="../../../assets/images/products/bratus.png">
+        <div class="col-sm-5 center_flex trigano_flex">
+                <img style="padding-bottom: 2%;" [routerLink]="['/productbratus']" title="Bratus" src="../../../assets/images/products/brats2.png">
         </div>
         <div class="col-sm-2 bratus" style="display: flex;">
-          <h2 [routerLink]="['/productbratus']">Bratus<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
+          <h4 [routerLink]="['/productbratus']">Bratus Collection<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
                 arrow_right_alt
-                </i></a></span></h2>
+                </i></a></span></h4>
         </div>
+        <div class="col-sm-1"></div>
       </div>  
 
       <div class="row" style="text-align: center;">
-          <div class="col" style="margin-left: 6%;">
-              <img src="../../../assets/images/products/brats.png">
+            <div class="col-sm-1"></div>
+            <div class="col">
+                    <img style="height: 141.77px;" src="../../../assets/images/products/bratus.png" title="Trigono" [routerLink]="['/productbratustrigono']">
+              <h4 style="margin-right: 0;" [routerLink]="['/productbratustrigono']">Trigono<br><span>learn more <a [routerLink]="['/productbratustrigono']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4>
             </div>
             <div class="col">
-                <img src="../../../assets/images/products/brats 2.png">
-            </div>
-            <div class="col">
-                <img src="../../../assets/images/products/arbor.png">
-            </div>
-        </div>
-        <div class="row" style="text-align: center;">
-            <div class="col stump_collection">
-                <h2 [routerLink]="['/productstump']">Stump Collection<br><span>learn more <a [routerLink]="['/productstump']"><i class="material-icons">
+                <img style="height: 141.77px;" src="../../../assets/images/products/brats 2.png" title="Robbie Chair" [routerLink]="['/productrobbiechair']">
+                <h4 style="margin-right: 0;" [routerLink]="['/productrobbiechair']">Robbie Chair<br><span>learn more <a [routerLink]="['/productrobbiechair']"><i class="material-icons">
                         arrow_right_alt
-                        </i></a></span></h2>
+                        </i></a></span></h4>
+            </div>
+            <div class="col">
+                <img class="arbor_img" style="padding-bottom: 2%; height: 141.77px;" [routerLink]="['/productbratusarbor']" title="Click here" src="../../../assets/images/products/arbor.png">
+                <h4 style="margin-right: 0;" [routerLink]="['/productbratusarbor']">Arbor<br><span>learn more <a [routerLink]="['/productbratusarbor']"><i class="material-icons">
+                    arrow_right_alt
+                    </i></a></span></h4>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row row_border"></div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col stump_collection">
+                <h4 [routerLink]="['/productstump']">Stump Collection<br><span>learn more <a [routerLink]="['/productstump']"><i class="material-icons">
+                        arrow_right_alt
+                        </i></a></span></h4>
                
-              <p class="class_p" style="right: 0;">
+              <p class="class_p stump_p" style="right: 0;">
                  The Stump Collection is inspired by the symmetry of shapes and forms both
                  imagined and discovered in nature. The strong lines and assertive presence
                  of each of the pieces in this collection are what make it stand out, not only
-                 within Mallet’s repertoire, but also in the market.
+                 within The Mallet’s repertoire, but also in the market.
                 </p>
             </div>
-            <div class="col">
-                <img src="../../../assets/images/products/stump.png">
+            <div class="col stump_img">
+                <img class="stump" src="../../../assets/images/products/stump.png" title="Stump"  [routerLink]="['/productstump']">
             </div>
+            <div class="col-sm-1"></div>
         </div> 
+        <div class="row row_border"></div>
 
-        <div class="row" style="margin-right: 10%;">
-          <div class="col center_flex">
-            <img src="../../../assets/images/products/wing collection.png">
-            <h3 [routerLink]="['/productwing']">Wing Collection<br><span>learn more <a [routerLink]="['/productwing']">
-                <i class="material-icons">
-                    arrow_right_alt
-                    </i></a></span></h3>
+        <div class="row wing_row" style="margin-right: 10%;">
+            <div class="col-sm-1"></div>
+          <div class="col-md-5 col-sm-12 center_flex wing_flex">
+            <img class="wing" title="Wing" [routerLink]="['/productwing']">
           </div>
-          <div class="col wing_collection">
-            <p class="class_p">
+          <div class="col-md-5 col-sm-12 wing_collection">
+                <h4 [routerLink]="['/productwing']">Wing Collection<br><span>learn more <a [routerLink]="['/productwing']">
+                    <i class="material-icons">
+                        arrow_right_alt
+                        </i></a></span></h4>
+            <p class="class_p wing_p">
                Let your mind take flight with the Wing Collection. We channel the
                aerodynamism, sleekness and the precise technical skill involved in
                creating supersonic jets in this collection.</p>
           </div>
+          <div class="col-sm-1"></div>
         </div>
 </div>

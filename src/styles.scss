@@ -5,16 +5,28 @@ html {
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  width: 0px;  /* remove scrollbar space */
+  width: 10px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
 }
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #FF0000;
+  background: #2f3838;
+}
+.container-fluid, .container{
+  padding-left: 0;
+  padding-right: 0;
 }
 
   body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
+  }
+
+  h2, h4, h3, ul.menu-items li {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
   }
 
   u {

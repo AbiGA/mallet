@@ -1,9 +1,52 @@
 h2 {
     color: #8f7d4f;
-    float: right;
-    font-size: 48px;
+  //  float: right;
+    font-size: 30px;
     margin-right: 12%;
-    line-height: 80%;
+    outline: none;
+}
+
+.wing {
+    content: url('../../../assets/images/products/wingcollection.png');
+}
+
+.banner {
+    content: url('../../../assets/images/Hero-Image-Products.jpg');
+}
+
+.row_border {
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: 1px solid #8f7d4f;
+}
+
+h4 {
+    color: #8f7d4f;
+    font-size: 25px;
+    outline: none;
+}
+
+span {
+    font-size: 17px;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+    a {
+        color: #8f7d4f;
+        outline: none;
+        text-decoration: none;
+    }
+    i {
+        cursor: pointer;
+    }
+}
+
+.product_heading {
+    font-size: 40px;
+}
+
+img {
     outline: none;
 }
 
@@ -11,30 +54,19 @@ h3 {
     position: absolute;
     top: 14%;
     right: 0;
-    font-size: 48px;
+    font-size: 40px;
     color: #8f7d4f;
 }
 
 .row {
     width: 100%;
-    padding-top: 13%;
-}
-
-span {
-    font-size: 18px;
-    display: flex;
-    a {
-        color: #8f7d4f;
-    }
-    i {
-        cursor: pointer;
-    }
+    padding-top: 6%;
 }
 
 .col-sm-8, .col-md-10, .col-lg-10{
     margin: 0 auto;
-    border-left: 2px solid #8f7d4f;
-    padding: 0 3%;
+  //  border-left: 2px solid #8f7d4f;
+ //   padding: 0 3%;
 }
 
 .col-md-2, .col-lg-2 {
@@ -55,9 +87,9 @@ span {
 }
 
 .class_p {
-    position: absolute;
-    bottom: 0;
-    width: 80%;
+   // position: absolute;
+   // bottom: 0;
+    width: 100%;
 }
 
 .center_flex {
@@ -67,12 +99,13 @@ span {
 
 p {
     color: #8f7d4f;
-    width: 90%;
+    width: 100%;
     font-size: 16px;
     text-align: justify;
 }
 
 .wing_collection {
+    padding-left: 5%;
     p{
         left: -25%;
         top: 54%;
@@ -107,6 +140,9 @@ p {
 }
 
 @media (max-width: 1024px) {
+    .wing_flex {
+        justify-content: left;
+    }
     .stump_collection {
         h2 {
             position: absolute;
@@ -121,47 +157,56 @@ p {
     h3 {
         right: -10%;
     }
+    .wing_collection {
+        padding-top: 5%;
+    }
 }
 
 @media (max-width: 768px) {
-    .row {
-        padding-top: 16%;
+    .banner {
+        content: url('../../../assets/images/mobile-products-page.jpg');
+    }
+    .row_border {
+        width: 100%;
     }
     h2 {
-        font-size: 46px;
+        font-size: 30px;
     }
     h3 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .class_p {
         width: 100%;
         font-size: 18px;
         margin-top: 10%;
     }
+    
     .wing_collection p {
         width: auto;
         position: absolute;
-        left: -403%;
-        top: 38%;
+        left: 0;
+        top: 25%;
         text-align: initial;
-        font-size: 22px;
+        font-size: 18px;
     }
-
+    .wing_collection {
+        h4 {
+            padding-top: 5%;
+            margin-left: -5%;
+        }
+    }
     .bratus {
         display: flex;
-        justify-content: center;
-        position: absolute;
-        left: 40%;
     }
     .stump_collection {
         h2 {
-            position: absolute;
-            top: -39%;
-            left: 109%;
-            font-size: 32px;
+            font-size: 30px;
             width: auto;
         }
-        
+    }
+    .stump {
+        width: 350px;
+        margin-top: 48%;
     }
 }
 
@@ -176,13 +221,24 @@ p {
  
      h2 {
          margin: 0 auto;
-         font-size: 40px;
+         font-size: 27px;
      }
+
+     .product_heading {
+        font-size: 30px;
+    }
 
      h3 {
           font-size: 30px;
     }
- 
+
+    h4 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    span {
+        font-size: 15px;
+    }
  
      p {
          color: #8f7d4f;
@@ -193,8 +249,14 @@ p {
      .class_p {
         position: relative;
         width: 100%;
+        text-align: justify;
+        font-size: 14px;
+        margin-top: 16%;
     }
-
+    .wing_p {
+        margin-top: 8%;
+    }
+    
     .wing_collection {
         p{
             left: -25%;
@@ -204,6 +266,9 @@ p {
  }
 
  @media (max-width: 600px) {
+     .col-sm-10, .col-sm-3, .col, .col-sm-5, .col-sm-2, .col-sm-6 {
+        padding-left: 10%;
+     }
     .row {
         padding-top: 21%;
      }
@@ -213,17 +278,22 @@ p {
     }
     .wing_collection {
         position: absolute;
-        margin-top: 32%;
+        text-align: right;
+        margin-top: 13%;
+        h4 {
+            text-align: center;
+            margin-left: 24%;
+        }
         p {
-            left: 26%;
-            width: 80%;
             font-size: 14px;
-            text-align: inherit;
+            text-align: justify;
+            width: 80%;
+            margin-top: 38%;
+            margin-left: 36%;
         }
     }
     .bratus {
         display: flex;
-        justify-content: center;
         position: absolute;
         left: 0;
         margin-top: -13%;
@@ -233,7 +303,7 @@ p {
             position: absolute;
             top: -22%;
             left: 7%;
-            font-size: 35px;
+            font-size: 30px;
             width: auto;
          }
         .learn_more {
@@ -244,17 +314,154 @@ p {
     h3 {
         margin-right: 10%;
     }
-    
+
+    .stump {
+        width: 300px;
+        margin-top: 0;
+    }
+    .wing {
+        padding-left: 10%;
+        content: url('../../../assets/images/productinside/wingcollection/Wing1/mobile-wing-collection.png');
+    } 
  }
 
- @media (max-width: 320px) {
+ @media (max-width: 414px) {
+    .col-sm-10, .col-sm-3, .col, .col-sm-5, .col-sm-2, .col-sm-6 {
+        padding-left: 14%;
+     }
+    .trigano_flex {
+       position: absolute;
+       padding-right: 10%;
+    }
+    .trigano_text {
+        border-left: none;
+        margin-top: 42%;
+    }
+    .stump_p {
+        margin-top: 70%;
+    }
+    .stump_img {
+        position: absolute;
+        margin-top: 23%;
+    }
+    .wing_flex {
+        padding-left: 0;
+    }
+    .wing_collection {
+        h4 {
+            margin-left: 0;
+            padding-top: 0;
+            margin-top: -30%;
+            text-align: left;
+            padding-left: 10%;
+        }
+       
+    }
+    p {
+        font-size: 14px;
+    }
+    .wing {
+
+    }
+    .wing_row {
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 375px) {
     .class_p {
-        font-size: 16px;
-        text-align: initial;
+        width: 100%;
+        font-size: 14px;
+        margin-top: 22%;
+    }
+    .stump {
+        width: 260px;
+    }
+    .stump_p {
+        margin-top: 65%;
+    }
+    h4 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .stump {
+        width: 245px;
+    }
+    .stump_p {
+        margin-top: 65%;
+    }
+    h4 {
+        font-size: 20px;
+    }
+
+    .trigano_text {
+        margin-top: 105%
+    }
+    .stump_img {
+        position: absolute;
+        margin-top: 23%;
+    }
+    .wing_flex {
+        padding-left: 0;
+    }
+    .col-sm-6 {
+        padding-left: 14%;
+    }
+}
+
+
+ @media (max-width: 320px) {
+    .col-sm-10, .col-sm-3, .col, .col-sm-5, .col-sm-2, .col-sm-6 {
+        padding-left: 18%;
+     }
+    .product_heading {
+        font-size: 25px;
+    }
+     h4 {
+         font-size: 18px;
+     }
+    .class_p {
+        font-size: 12px;
+        margin-top: 10%;
+    }
+    .arbor_img {
+        width: 250px;
     }
     .stump_collection {
         h2 {
             font-size: 34px;
         }
-    } 
+    }
+    .stump_p {
+        margin-top: 65%;
+    }
+    .stump {
+        width: 205px;
+    }
+    .col-sm-10 {
+        padding-left: 18%;
+    }
+    .trigano_text {
+        margin-top: 120%;
+    }
+    .trigano_flex {
+        padding-right: 10%;
+    }
+    .col {
+        padding-left: 18%;
+    }
+    .wing_collection p {
+        font-size: 14px;
+        text-align: justify;
+        width: 80%;
+        margin-top: 47%;
+        margin-left: 36%;
+    }
+    .wing_row {
+        padding-bottom: 23%;
+    }
+
  }

@@ -1,0 +1,85 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 col-xs-12"></div>
+    <div class="col-sm-4 col-xs-12">
+      <img class="zoomed_image" style="width: 90%" src="{{mainimage}}">
+    </div>
+    <div class="col-sm-6 col-xs-12 pie">
+      <h2 class="product_heading">Pick<br><p>Beech, Oak, Metal</p><p>Casual Seating Area; Tables and Stands;</p></h2>
+    </div>
+  </div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+          <img src="{{image1}}" style="width: 60%" (click)="changeMainImage(image1_large)" title="click here">
+        </div>
+        <div class="col">
+          <img src="{{image2}}" style="width: 60%" (click)="changeMainImage(image2_large)" title="click here">
+        </div>
+      </div>
+</div>
+  <div class="row story">
+    <div class="col-sm-1"></div>
+    <div class="col">
+        <h2>Story</h2>
+        <p>A beech wood table top with an exaggerated grain pattern, tapered oak wood legs and 
+           developed truncated cone metal bracket. The Pick table is an integral part of the
+           Lucerna Collection, with its aesthetically pleasing minimal design, and simple but
+           effective structural solutions in a geometrically sound form. 
+          </p>
+    </div>
+    <div class="col col_story">
+      <img class="img_class" src="../../../assets/images/productinside/lucernacollection/pick/pickinside1.png">
+    </div>
+  </div>
+  <img class="banner_img" src="../../../assets/images/productinside/lucernacollection/pick/pickinside.png">
+  <br>
+  <div class="row deisgn">
+    <div class="col col_story">
+      <img class="img_class" src="../../../assets/images/productinside/lucernacollection/pick/pickinside2.png">
+    </div>
+    <div class="col">
+      <h2>Design</h2>
+      <p>We achieved the geometry of the tabletop with set proportions and radius in a
+         calculated ratio, such that every curve complements each other. The process of
+         creating this piece involved the use of innovative jigs to taper the legs and
+         applied geometry to achieve the perfect proportions with the metal brackets.
+        </p>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="row similarproducts">
+      <div class="col-sm-1"></div>
+      <div class="col">
+          <h2>Similar Products</h2><br>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  <div class="row" style="text-align: center;">
+    <div class="col-sm-1"></div>
+    <div class="col">
+        <img style="height: 141.77px;" src="../../../assets/images/products/lucerna.png" title="Lucerna Collection" [routerLink]="['/productlucerna']">
+        <h4 style="margin-right: 0;" [routerLink]="['/productlucerna']">Lucerna<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
+          arrow_right_alt
+          </i></a></span></h4>
+    </div>
+    <div class="col">
+        <img style="height: 141.77px;" src="../../../assets/images/products/obtuse.png" title="Obtuse Collection" [routerLink]="['/productlucernaobtuse']">
+            <h4 style="margin-right: 0;" [routerLink]="['/productlucernaobtuse']">Obtuse<br><span>learn more <a [routerLink]="['/productlucernaobtuse']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4>
+    </div>
+    <div class="col">
+        <img style="height: 141.77px;" src="../../../assets/images/products/relica.png" title="Relica Collection" [routerLink]="['/productlucernarelica']">
+        <h4 style="margin-right: 0;" [routerLink]="['/productlucernarelica']">Relica<br><span>learn more <a [routerLink]="['/productlucernarelica']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h4>  
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+</div>

@@ -18,6 +18,12 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { ProductsinsidebratusComponent } from './pages/productsinsidebratus/productsinsidebratus.component';
 import { ProductsinsidestumpComponent } from './pages/productsinsidestump/productsinsidestump.component';
 import { ProductsinsidewingComponent } from './pages/productsinsidewing/productsinsidewing.component';
+import { ProductsinsidelucernaobtuseComponent } from './pages/productsinsidelucernaobtuse/productsinsidelucernaobtuse.component';
+import { ProductsinsidelucernapickComponent } from './pages/productsinsidelucernapick/productsinsidelucernapick.component';
+import { ProductsinsidelucernarelicaComponent } from './pages/productsinsidelucernarelica/productsinsidelucernarelica.component';
+import { ProductsinsidebratusarborComponent } from './pages/productsinsidebratusarbor/productsinsidebratusarbor.component';
+import { ProductsinsidebratustrigonoComponent } from './pages/productsinsidebratustrigono/productsinsidebratustrigono.component';
+import { RobbiechairComponent } from './pages/robbiechair/robbiechair.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { ProductsinsidewingComponent } from './pages/productsinsidewing/products
     ProductsinsideComponent,
     ProductsinsidebratusComponent,
     ProductsinsidestumpComponent,
-    ProductsinsidewingComponent
+    ProductsinsidewingComponent,
+    ProductsinsidelucernaobtuseComponent,
+    ProductsinsidelucernapickComponent,
+    ProductsinsidelucernarelicaComponent,
+    ProductsinsidebratusarborComponent,
+    ProductsinsidebratustrigonoComponent,
+    RobbiechairComponent
   ],
   imports: [
     BrowserModule,
