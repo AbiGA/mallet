@@ -8,7 +8,7 @@ import 'rxjs/add/operator/catch';
   providedIn: 'root'
 })
 export class ContactformService {
-  private emailUrl = 'http://mallet.gcproductions.in/assets/formservice.php';
+  private emailUrl = 'http://themallet.in/assets/formservice.php';
   constructor(private http: Http) { }
   
   sendEmail(data): Observable<any> {

@@ -2,9 +2,12 @@
 .container-fluid, .container{
     padding-top: 4%;
     padding-bottom: 10%;
+   
 }
 .container {
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 h2 {
     color: #8f7d4f;
@@ -111,10 +114,6 @@ span {
     .zoomed_image {
         width: 100%;
     }
-    .banner_img {
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
     .img_class {
         width: 25%;
     }
@@ -129,7 +128,7 @@ span {
 
 @media (max-width: 670px) {
     .col-sm-6, .col-sm-5, .col {
-        padding-left: 6%;
+        padding-left: 10%;
     }
     .col {
         text-align: center;
@@ -167,6 +166,7 @@ span {
     }
     .product_heading {
         font-size: 30px;
+     //   padding-left: 10%;
     }
 
     h2 {
@@ -202,10 +202,6 @@ span {
        padding-top: 50% !important;
        padding-bottom: 5%;
     }
-    .banner_img {
-       margin-top: 40%;
-       margin-bottom: 40%;
-   }
    .product_heading {
        margin-top: -130%;
    }

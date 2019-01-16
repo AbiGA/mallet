@@ -1,6 +1,5 @@
 .container-fluid, .container{
     padding-top: 4%;
-    padding-bottom: 10%;
 }
 .container {
     text-align: center;
@@ -68,7 +67,6 @@ p {
 }
 
 .banner_img {
-    margin-top: 10%;
     margin-bottom: 10%;
 }
 
@@ -156,10 +154,6 @@ p {
     .similarproducts {
        padding-bottom: 5%;
     }
-    .banner_img {
-       margin-top: 40%;
-       margin-bottom: 40%;
-   }
    .product_heading {
        margin-top: -130%;
        padding-left: 10%;
@@ -181,9 +175,6 @@ p {
     }
     .design_img {
         top: 50%;
-    }
-    .deisgn {
-        padding-bottom: 29%;
     }
 }
 @media (max-width: 360px) {

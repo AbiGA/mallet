@@ -159,6 +159,8 @@ p {
     }
     .product_heading {
         font-size: 35px;
+        padding-left: 10%;
+        margin-top: -122%;
     }
     h2 {
         padding-top: 10%;
@@ -186,16 +188,13 @@ p {
         top: 20%
     }
     .similarproducts {
-       padding-top: 50% !important;
+       padding-top: 30% !important;
        padding-bottom: 5%;
+
+       .col h2 {
+           padding-left: 10%;
+       }
     }
-    .banner_img {
-       margin-top: 40%;
-       margin-bottom: 40%;
-   }
-   .product_heading {
-       margin-top: -130%;
-   }
    .pie h2 p {
        width: 100%;
    }
