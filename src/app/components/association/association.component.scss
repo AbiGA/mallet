@@ -1,0 +1,41 @@
+h4 {
+    position: absolute;
+    font-size: 16px;
+    color: #8f7d4f;
+    top: 45%;
+    left: 0;
+}
+
+.bent {
+    margin-top: 5%;
+}
+.col {
+    text-align: center;
+}
+.row {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media (max-width: 670px) {
+    h4 {
+        position: relative !important;
+        font-size: 14px;
+    }
+    .col-sm-3 {
+        text-align: center !important;
+    }
+    .association_img {
+        width: 100% !important;
+    }
+    .logo_img {
+        width: 30% !important;
+    }
+    .bent {
+        margin-top: 10%;
+    }
+    .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

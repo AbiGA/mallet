@@ -2,11 +2,11 @@
     <div class="row">
       <div class="col-sm-2 col-xs-12"></div>
       <div class="col-sm-4 col-xs-12">
-        <img class="zoomed_image" src="{{mainimage}}">
+        <img style="width: 100%" class="zoomed_image" src="{{mainimage}}">
       </div>
       <div class="col-sm-6 col-xs-12 pie">
-        <h2>Pie Sectional Seating<br><br><p>Material: Beech wood</p>
-          <p>Catgeory: Tables and Stands; Study area;</p></h2>
+        <h2 class="product_heading">Wing 1<br><p style="margin-bottom: 0;">Material: Beech wood</p>
+          <p>Tables and Stands; Study area;</p></h2>
       </div>
     </div>
   
@@ -14,17 +14,15 @@
   <div class="container">
       <div class="row">
           <div class="col">
-            <img src="{{image1}}" (click)="changeMainImage(image1_large)" title="click here">
+            <img src="{{image1}}" style="width: 50%" (click)="changeMainImage(image1_large)" title="click here">
           </div>
           <div class="col">
-            <img src="{{image2}}" (click)="changeMainImage(image2_large)" title="click here">
-          </div>
-          <div class="col">
-            <img src="{{image3}}" (click)="changeMainImage(image3_large)" title="click here">
+            <img src="{{image2}}" style="width: 50%" (click)="changeMainImage(image2_large)" title="click here">
           </div>
         </div>
   </div>
     <div class="row story">
+      <div class="col-sm-1"></div>
       <div class="col">
           <h2>Story</h2>
           <p>This formal study table unit is inspired by the clean, aerodynamic lines of modern
@@ -32,15 +30,18 @@
              in mid air. The sharp angles and emphasized chamfers lend a dynamic and adventurous
              feeling to the previously solid and static interpretations of the table.</p>
       </div>
-      <div class="col col_story">
-        <img class="img_class" src="../../../assets/images/productinside/pie 4.png">
+      <div class="col col_story" style="padding-right: 0;">
+        <img class="img_class" src="../../../assets/images/productinside/wingcollection/Wing1/wing1inside1.png">
       </div>
     </div>
-    <img class="banner_img" src="../../../assets/images/productinside/pie inside.png">
-    <br>
+</div>
+<div class="container-fluid" style="padding: 0;">  
+    <img class="banner_img" src="../../../assets/images/productinside/wingcollection/Wing1/wing1centre.png">
+</div>
+<div class="container-fluid">
     <div class="row deisgn">
-      <div class="col col_story">
-        <img class="img_class" src="../../../assets/images/productinside/pie 3.png">
+      <div class="col col_story" style="padding-left: 0;">
+        <img class="img_class" src="../../../assets/images/productinside/wingcollection/Wing1/wing1inside2.png">
       </div>
       <div class="col">
         <h2>Design</h2>
@@ -49,30 +50,34 @@
            angles and sharp lines to lend stability to the structure, while maintaining the
            illusion of levitation in mid-air.</p>
       </div>
+      <div class="col-sm-1"></div>
     </div>
-    <h2>Similar Products</h2><br>
+    <div class="row similar_products" style="padding-top: 3%;">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10"><h2>Similar Products</h2></div>
+        <div class="col-sm-1"></div>
+      </div>
     <div class="row" style="text-align: center;">
+      <div class="col-sm-1"></div>
       <div class="col">
-        <img src="../../../assets/images/productinside/relica.png">
+        <img style="height: 141.77px;" [routerLink]="['/productbratus']" title="Click here" src="../../../assets/images/products/brats2.png">
+                <h4 style="margin-right: 0;" [routerLink]="['/productbratus']">Bratus<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
+                  arrow_right_alt
+                  </i></a></span></h4>
       </div>
       <div class="col">
-          <img src="../../../assets/images/productinside/lucerna 1.png">
-      </div>
+          <img style="height: 141.77px;" [routerLink]="['/productrobbiechair']" title="Click here" src="../../../assets/images/products/brats 2.png">
+                <h4 style="margin-right: 0;" [routerLink]="['/productrobbiechair']">Robbie chair<br><span>learn more <a [routerLink]="['/productrobbiechair']"><i class="material-icons">
+                  arrow_right_alt
+                  </i></a></span></h4>
+        </div>
       <div class="col">
-        <img src="../../../assets/images/productinside/stump inside.png">
+        <img style="height: 141.77px;" [routerLink]="['/productbratusarbor']" title="Click here" src="../../../assets/images/products/arbor.png">
+        <h4 style="margin-right: 0;" [routerLink]="['/productbratusarbor']">Arbor<br><span>learn more <a [routerLink]="['/productbratusarbor']"><i class="material-icons">
+            arrow_right_alt
+            </i></a></span></h4>
       </div>
-    </div>
-    <h2>Similar Products</h2><br>
-    <div class="row" style="text-align: center;">
-      <div class="col">
-        <img src="../../../assets/images/productinside/relica.png">
-      </div>
-      <div class="col">
-          <img src="../../../assets/images/productinside/lucerna 1.png">
-      </div>
-      <div class="col">
-        <img src="../../../assets/images/productinside/stump inside.png">
-      </div>
+      <div class="col-sm-1"></div>
     </div>
   
   </div>

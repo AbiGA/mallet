@@ -17,5 +17,7 @@ export class HomeComponent implements OnInit {
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
   }
-
+  ngAfterViewInit() {
+    window.scrollTo(0, 0);
+  }
 }

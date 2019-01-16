@@ -1,24 +1,26 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">      
-      <img class="banner_img" src="../../../assets/images/homepage/Hero Image home.png">
-<a [ngx-scroll-to]="'scrolldestination'" style="color:white;">Scroll</a>
+      rel="stylesheet">   
+      <img class="banner_img banner">
+<!--  
+<a [ngx-scroll-to]="'scrolldestination'" style="color:white;"></a>
 <i [ngx-scroll-to]="'scrolldestination'" class="material-icons">
   arrow_downward
 </i>
+-->
 <br>
 <div id="scrolldestination" style="width: auto;">
-    <h2 style="margin-right: 26%;"><u>Contact</u></h2>
-<form [formGroup]="contactForm" (ngSubmit)="submitForm()" novalidate>
+    <h2><u>Contact</u></h2>
+<form [formGroup]="contactForm" (ngSubmit)="submitForm(contactForm.value)" novalidate>
   <div class="form-group">
-    <input class="form-group" formControlName="name" placeholder="Name">
-    <input class="form-group" formControlName="phone1" placeholder="Phone">
-    <input class="form-group" formControlName="phone" placeholder="Phone">
-    <select class="form-group" formControlName="options" placeholder="Option">
+    <input class="form-group" formControlName="name" placeholder="Name" required>
+    <input class="form-group" formControlName="phone1" placeholder="Email" required>
+    <input class="form-group" formControlName="phone" placeholder="Phone" required>
+    <select class="form-group" formControlName="options" placeholder="Option" required>
         <option value="" disabled selected>Option</option>
         <option *ngFor="let option of options" [value]="option" value="select">{{option}}</option> 
     </select>
-    <input class="form-group" formControlName="subject" placeholder="Subject"><br>
-    <textarea class="form-group" formControlName="message" rows="5" placeholder="Message">
+    <input class="form-group" formControlName="subject" placeholder="Subject" required><br>
+    <textarea class="form-group" formControlName="message" rows="5" placeholder="Message" required>
     </textarea>
   </div>
   <button type="submit" [disabled]="contactForm.pristine">SEND</button><br>

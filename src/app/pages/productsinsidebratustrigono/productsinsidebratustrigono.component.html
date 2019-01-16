@@ -1,0 +1,87 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<div class="container-fluid" style="padding: 0;">  
+  <img style="width: 100%;" src="../../../assets/images/productinside/bratuscollection/Trigono/trigonocentre.png">
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 col-xs-12"></div>
+    <div class="col-sm-4 col-xs-12">
+      <img class="zoomed_image"  src="{{mainimage}}">
+    </div>
+    <div class="col-sm-6 col-xs-12 pie">
+      <h2 class="product_heading">Trigono<br><p style="margin-bottom: 0;">Material: Oak legs, with beech for the top and horizontals</p>
+        <p>Casual Seating Area; Tables and Stands </p></h2>
+    </div>
+  </div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+          <img src="{{image1}}" style="width: 60%"  (click)="changeMainImage(image1_large)" title="click here">
+        </div>
+        <div class="col">
+          <img src="{{image2}}" style="width: 60%" (click)="changeMainImage(image2_large)" title="click here">
+        </div>
+      </div>
+</div>
+  <div class="row story">
+    <div class="col-sm-1"></div>
+    <div class="col">
+        <h2>Story</h2>
+        <p>The Trigono planter stand was created through a seamless blending of geometric shapes
+           with joinery techniques to create a two-level stand. The highlight is the juxtaposition
+           of a complex triangular surface created through joinery in the lower level, contrasted
+           with the perfect circle surface at the top level, emphasising on the stability and strength
+           of the form. It is a multi-purpose complementary piece to the Bratus collection. 
+          </p>
+    </div>
+    <div class="col col_story one">
+      <img class="img_class" src="../../../assets/images/productinside/bratuscollection/Trigono/trigonoinside1.png">
+    </div>
+  </div>
+  <div class="row deisgn">
+    <div class="col col_story two">
+      <img class="img_class" src="../../../assets/images/productinside/bratuscollection/Trigono/trigonoinside2.png">
+    </div>
+    <div class="col">
+      <h2>Design</h2>
+      <p>We used a thorough and precise geometrical calculation to create the piece, using carefully
+        calculated angles and dimensions, resulting in the beautiful harmony of the form and solid
+        stability of the structure.
+        </p>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <br/>
+  <div class="row similar_products" style="padding-top: 3%;">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10"><h2>Similar Products</h2></div>
+      <div class="col-sm-1"></div>
+    </div>
+  <div class="row" style="text-align: center;">
+    <div class="col-sm-1"></div>
+    <div class="col">
+      <img style="height: 141.77px;" [routerLink]="['/productbratus']" title="Click here" src="../../../assets/images/products/brats2.png">
+              <h4 style="margin-right: 0;" [routerLink]="['/productbratus']">Bratus<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4>
+    </div>
+    <div class="col">
+        <img style="height: 141.77px;" [routerLink]="['/productrobbiechair']" title="Click here" src="../../../assets/images/products/brats 2.png">
+              <h4 style="margin-right: 0;" [routerLink]="['/productrobbiechair']">Robbie chair<br><span>learn more <a [routerLink]="['/productrobbiechair']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4>
+      </div>
+    <div class="col">
+      <img style="height: 141.77px;" [routerLink]="['/productbratusarbor']" title="Click here" src="../../../assets/images/products/arbor.png">
+      <h4 style="margin-right: 0;" [routerLink]="['/productbratusarbor']">Arbor<br><span>learn more <a [routerLink]="['/productbratusarbor']"><i class="material-icons">
+          arrow_right_alt
+          </i></a></span></h4>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+</div>

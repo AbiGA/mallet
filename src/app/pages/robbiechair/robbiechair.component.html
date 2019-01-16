@@ -1,0 +1,88 @@
+<div class="container-fluid" style="padding: 0;">  
+      <img style="width: 100%;" src="../../../assets/images/productinside/robbiechair/robbie-chair-inside.png">
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2 col-xs-12"></div>
+      <div class="col-sm-4 col-xs-12">
+        <img style="width: 90%" class="zoomed_image" src="{{mainimage}}">
+      </div>
+      <div class="col-sm-6 col-xs-12 pie">
+        <h2 class="product_heading">Robbie Chair<br><p style="margin-bottom: 0;">Material: White Oak seat, cushioned cylindrical backrest, stainess steel structure; </p>
+           <p>Single Seater </p></h2>
+      </div>
+    </div>
+  
+  
+  <div class="container">
+      <div class="row">
+          <div class="col">
+            <img style="width: 60%" src="{{image1}}" (click)="changeMainImage(image1_large)" title="click here">
+          </div>
+          <div class="col">
+            <img style="width: 60%" src="{{image2}}" (click)="changeMainImage(image2_large)" title="click here">
+          </div>
+          <div class="col">
+            <img style="width: 60%" src="{{image3}}" (click)="changeMainImage(image3_large)" title="click here">
+          </div>
+        </div>
+  </div>
+    <div class="row story" style="padding-top: 10%;">
+        <div class="col-sm-1"></div>
+      <div class="col">
+          <h2>Story</h2>
+          <p>The Robbie Chair draws from the design language of the Bratus bench for the back rest,
+            with a prominent angle to the back showing off its slender curved stainless steel legs
+            that cross under it. It is the perfect complement to the Bratus, echoing its ergonomic
+            design for maximum comfort and style.</p>
+      </div>
+      <div class="col col_story" style="padding-right: 0;">
+        <img class="img_class" src="../../../assets/images/productinside/robbiechair/robbie-chair-inside-1.png">
+      </div>
+    </div>
+    <div class="row deisgn">
+      <div class="col col_story" style="padding-left: 0;">
+        <img class="img_class" src="../../../assets/images/productinside/robbiechair/robbie-chair-inside-2.png">
+      </div>
+      <div class="col">
+        <h2>Design</h2>
+        <p>We created the seat from white oak with a cylindrical backrest,
+          supported by a stainless steel structure, which is the main structural
+          element. The stainless steel structure was crossed and bent in circular
+          sections that clim to form the backrest.</p>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row similar_products" style="padding-top: 5%;">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10"><h2>Similar Products</h2></div>
+        <div class="col-sm-1"></div>
+      </div>
+    <div class="row" style="text-align: center; padding-bottom: 2%; padding-top: 2%;">
+        <div class="col-sm-1"></div>
+        <div class="col">
+          <img style="height: 141.77px;" [routerLink]="['/productbratustrigono']" title="Click here" src="../../../assets/images/products/bratus.png">
+                <h4 style="margin-right: 0;" [routerLink]="['/productbratustrigono']">Trigono<br><span>learn more <a [routerLink]="['/productbratustrigono']"><i class="material-icons">
+                  arrow_right_alt
+                  </i></a></span></h4>
+        </div>
+        <div class="col">
+            <div>
+            <img style="height: 141.77px;" class="bratus"  [routerLink]="['/productbratusarbor']" title="Bratus" src="../../../assets/images/products/arbor.png">
+                    <h4 style="margin-right: 0;" [routerLink]="['/productbratusarbor']">Arbor<br><span>learn more <a [routerLink]="['/productbratusarbor']"><i class="material-icons">
+                        arrow_right_alt
+                        </i></a></span></h4>
+            </div>            
+          </div>
+        <div class="col">
+          <div>
+          <img style="height: 141.77px;" class="bratus"  [routerLink]="['/productbratus']" title="Click here" src="../../../assets/images/products/brats2.png">
+                  <h4 style="margin-right: 0;" [routerLink]="['/productbratus']">Bratus<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
+                      arrow_right_alt
+                      </i></a></span></h4>
+          </div>            
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+  </div>

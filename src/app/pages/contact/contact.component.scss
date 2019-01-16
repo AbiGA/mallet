@@ -1,10 +1,7 @@
-a {
-    top: 0;
-    position: absolute;
-    left: 50.5%;
-    top: 50%;
-    cursor: pointer;
+#scrolldestination {
+    padding-bottom: 2%;
 }
+
 i {
     top: 1%;
     position: absolute;
@@ -14,11 +11,16 @@ i {
     color:white;
 }
 
+.banner {
+    content: url('../../../assets/images/Hero-Image-Contact.jpg');
+    width: 100%;
+}
+
 h2 {
     color: #8f7d4f;
-    float: right;
-    font-size: 43px;
+    font-size: 40px;
     margin-right: 5%;
+    margin-left: 26%;
 }
 .map {
     padding: 0px;
@@ -27,7 +29,7 @@ h2 {
 
 form {
     width: 50%;
-    margin: 6% auto;
+    margin: 0 auto;
 }
 
 input {
@@ -43,23 +45,26 @@ select {
     opacity: 1; /* Firefox */
     padding-left: 20px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #8f7d4f;
     padding-left: 20px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #8f7d4f;
     padding-left: 20px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 input, select, textarea {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 0;
     margin: 8px 0;
     display: inline-block;
     border-radius: 4px;
@@ -69,12 +74,17 @@ input, select, textarea {
     border: 1px solid #8f7d4f;
     font-size: 16px;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
 
     option {
         color: #8f7d4f;
         background-color: #141414;
         font-size: 16px;
     }
+}
+
+select {
+    padding: 14px 16px;
 }
 
 textarea {
@@ -87,8 +97,8 @@ textarea:focus {
 }
 
 input[formControlName=name],input[formControlName=phone1] {
-    width: 50%;
-    padding: 12px 20px;
+    width: 48%;
+    padding: 12px 0;
     margin: 8px 0;
     display: inline-block;
     border-radius: 4px;
@@ -97,16 +107,23 @@ input[formControlName=name],input[formControlName=phone1] {
     border: 1px solid #8f7d4f;
     outline: none;
 }
+input[formControlName=name] {
+    margin-right: 2%;
+}
 
+input[formControlName=phone1] {
+    margin-left: 2%;
+}
 
 button[type=submit] {
     background-color: #8f7d4f;
     color: #141414;
-    padding: 14px 35px;
-    font-size: 18px;
+    padding: 12px 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     margin: -16px 0;
     border: none;
-    margin-left: 2%;
+    margin-left: 3%;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
@@ -119,6 +136,7 @@ input[type=submit]:hover {
 div {
     border-radius: 5px;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 @media (max-width: 1024px) {
@@ -126,13 +144,40 @@ div {
         width: 100%;
         margin: 6% auto;
     }
+    h2 {
+        float: left;
+        margin-left: 3%;
+    }
 
+
+}
+@media only screen and (max-width: 768px) {
+.banner {
+    content: url('../../../assets/images/mobile-contact-page.jpg');
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 670px) {
 
     input[formControlName=name],input[formControlName=phone1] {
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 8px 0;
+    }
+    input, textarea {
+        padding: 8px 0;
+    }
+
+    select {
+        padding: 8px 16px;
+    }
+
+    h2 {
+        float: left;
+        font-size: 30px;
+        margin-left: 6%;
     }
 
     button[type=submit] {

@@ -2,11 +2,11 @@
     <div class="row">
       <div class="col-sm-2 col-xs-12"></div>
       <div class="col-sm-4 col-xs-12">
-        <img class="zoomed_image" src="{{mainimage}}">
+        <img style="width: 90%" class="zoomed_image" src="{{mainimage}}">
       </div>
       <div class="col-sm-6 col-xs-12 pie">
-        <h2>Pie Sectional Seating<br><br><p>Material: Cemented white oak </p>
-           <p>Catgeory: Casual Seating Area; Tables and Stands </p></h2>
+        <h2 class="product_heading">The Stump Table<br><p style="margin-bottom: 0;">Material: Cemented white oak </p>
+           <p>Casual Seating Area; Tables and Stands </p></h2>
       </div>
     </div>
   
@@ -14,17 +14,21 @@
   <div class="container">
       <div class="row">
           <div class="col">
-            <img src="{{image1}}" (click)="changeMainImage(image1_large)" title="click here">
+            <img style="width: 60%" src="{{image1}}" (click)="changeMainImage(image1_large)" title="click here">
           </div>
           <div class="col">
-            <img src="{{image2}}" (click)="changeMainImage(image2_large)" title="click here">
+            <img style="width: 60%" src="{{image2}}" (click)="changeMainImage(image2_large)" title="click here">
           </div>
           <div class="col">
-            <img src="{{image3}}" (click)="changeMainImage(image3_large)" title="click here">
+            <img style="width: 60%" src="{{image3}}" (click)="changeMainImage(image3_large)" title="click here">
+          </div>
+          <div class="col">
+            <img style="width: 60%" src="{{image4}}" (click)="changeMainImage(image4_large)" title="click here">
           </div>
         </div>
   </div>
     <div class="row story">
+        <div class="col-sm-1"></div>
       <div class="col">
           <h2>Story</h2>
           <p>The masterpiece of the collection, it comprises four solid columns that resemble
@@ -34,15 +38,18 @@
              will definitely be a talking point in any shared space, with its solidity and
              assertiveness. </p>
       </div>
-      <div class="col col_story">
-        <img class="img_class" src="../../../assets/images/productinside/pie 4.png">
+      <div class="col col_story" style="padding-right: 0;">
+        <img class="img_class" src="../../../assets/images/productinside/stumpcollection/Stump table/stump-tableinside1.png">
       </div>
     </div>
-    <img class="banner_img" src="../../../assets/images/productinside/pie inside.png">
-    <br>
+</div>
+<div class="container-fluid" style="padding: 0;"> 
+    <img class="banner_img" src="../../../assets/images/productinside/stumpcollection/Stump table/stump-tablecentre.png">
+</div>
+<div class="container-fluid" style="padding: 0;">
     <div class="row deisgn">
       <div class="col col_story">
-        <img class="img_class" src="../../../assets/images/productinside/pie 3.png">
+        <img class="img_class" src="../../../assets/images/productinside/stumpcollection/Stump table/stump-tableinside2.png">
       </div>
       <div class="col">
         <h2>Design</h2>
@@ -52,30 +59,36 @@
            creativity in furniture design, from conceptualization through to technique in execution
            and finish.</p>
       </div>
+      <div class="col-sm-1"></div>
     </div>
-    <h2>Similar Products</h2><br>
-    <div class="row" style="text-align: center;">
-      <div class="col">
-        <img src="../../../assets/images/productinside/relica.png">
+    <div class="row similarproducts">
+        <div class="col-sm-1"></div>
+        <div class="col">
+            <h2>Similar Products</h2><br>
+        </div>
+        <div class="col-sm-1"></div>
       </div>
-      <div class="col">
-          <img src="../../../assets/images/productinside/lucerna 1.png">
+    <div class="row" style="text-align: center; padding-bottom: 5%;">
+        <div class="col-sm-1"></div>
+        <div class="col-md-3 col-sm-12">
+            <img style="height: 141.77px;" src="../../../assets/images/products/lucerna.png" title="Lucerna Collection" [routerLink]="['/productlucerna']">
+            <h4 style="margin-right: 0;" [routerLink]="['/productlucerna']">Lucerna<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
+              arrow_right_alt
+              </i></a></span></h4>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <img style="height: 141.77px;" src="../../../assets/images/products/pick.png" title="Pick Collection" [routerLink]="['/productlucernapick']">
+            <h4 style="margin-right: 0;" [routerLink]="['/productlucernapick']">Pick<br><span>learn more <a [routerLink]="['/productlucernapick']"><i class="material-icons">
+              arrow_right_alt
+              </i></a></span></h4>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <img style="height: 141.77px;" src="../../../assets/images/products/obtuse.png" title="Obtuse Collection" [routerLink]="['/productlucernaobtuse']">
+            <h4 style="margin-right: 0;" [routerLink]="['/productlucernaobtuse']">Obtuse<br><span>learn more <a [routerLink]="['/productlucernaobtuse']"><i class="material-icons">
+                arrow_right_alt
+                </i></a></span></h4> 
+        </div>
+        <div class="col-sm-1"></div>
       </div>
-      <div class="col">
-        <img src="../../../assets/images/productinside/stump inside.png">
-      </div>
-    </div>
-    <h2>Similar Products</h2><br>
-    <div class="row" style="text-align: center;">
-      <div class="col">
-        <img src="../../../assets/images/productinside/relica.png">
-      </div>
-      <div class="col">
-          <img src="../../../assets/images/productinside/lucerna 1.png">
-      </div>
-      <div class="col">
-        <img src="../../../assets/images/productinside/stump inside.png">
-      </div>
-    </div>
   
   </div>

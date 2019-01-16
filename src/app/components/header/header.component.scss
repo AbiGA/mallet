@@ -1,6 +1,12 @@
 .logo {
     height: 120px;
     text-align: center;
+    a {
+        img {
+            visibility:visible; 
+            width: 3%;
+        }
+    }
 }
 .container-fluid .row {
     border-bottom: 1px solid  #8f7d4f;
@@ -22,6 +28,9 @@ a{
     background-color: transparent;
     outline: none;
 }
+button.navbar-toggler {
+    border: none;
+}
 .menu {
     display: flex;
     border: #8f7d4f;
@@ -32,6 +41,10 @@ a{
 img {
     position: relative;
     top: 16%;
+}
+
+.active {
+    color: white !important;
 }
 
  ul.menu-items {
@@ -52,10 +65,15 @@ img {
         margin-left: 5%;
     }
     li:hover{
-        background-color: #6c757d;
+        background-color: transparent;
         color: #fff;
         text-decoration: none;
     }
+
+    .selected {
+        color: white;
+    }
+
 
  }
  
@@ -64,10 +82,71 @@ img {
       
   }
 
+  @media (max-width: 1920px) {
+    .logo {
+      height: 100px;
+      a {
+          img {
+              visibility:visible; 
+              width: 7%;
+          }
+      }
+  }
+  }  
+
+  @media (max-width: 1336px) {
+    .logo {
+      height: 100px;
+      a {
+          img {
+              visibility:visible; 
+              width: 9%;
+          }
+      }
+  }
+  }  
+
   @media (max-width: 1024px) {
     ul.menu-items {
         li {
         margin-left: 2%;
     }
   }
+  .logo {
+    height: 100px;
+    a {
+        img {
+            visibility:visible; 
+            width: 12%;
+        }
+    }
+}
+}
+
+@media (max-width: 768px) {
+    .logo {
+      height: 100px;
+      a {
+          img {
+              visibility:visible; 
+              width: 16%;
+          }
+      }
+  }
+  nav {
+      padding-bottom: 0;
+  }
+
+  }  
+
+@media (max-width: 414px) {
+  .logo {
+    height: 100px;
+    a {
+        img {
+            visibility:visible; 
+            width: 30%;
+        }
+    }
+}
 }

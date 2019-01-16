@@ -1,39 +1,40 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<div class="logo">
-  <a [routerLink]="['/home']"><img src="../../../assets/images/logo.png"></a> 
-</div>
-  <br>
+<div class="logo" id="destination">
+  <a [routerLink]="['/home']"><img src="../../../assets/The-Mallet_logo_gold.png"></a>
+<!--<a style="text-decoration: none;" [routerLink]="['/home']"><h2 style="color: #8f7d4f; font-family: 'Roboto', sans-serif;">THE MALLET</h2></a>-->
+</div>  
+<br>
 <div class="main-menu">
   <div class="container-fluid">
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8 col-md-8 col-xs-12 menu">
               <nav class="navbar navbar-expand-lg navbar-dark">
-                  <a class="navbar-brand" href="#">
-                  </a>
-                  <button class="navbar-toggler" type="button"
-                  (click)="toggleNavbar()">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"
-                [ngClass]="{ 'show': navbarOpen }">
-            <ul class="navbar-nav mr-auto menu-items">
-              <li class="nav-item" routerLink="" (click)="toggleNavbar()">Home</li>
-              <li class="nav-item" routerLink="/about" (click)="toggleNavbar()">About</li>
-              <li routerLink= "/products" (click)="toggleNavbar()">Products</li>
-              <li routerLink="/comingup" (click)="toggleNavbar()">Coming up</li> 
-              <li routerLink="/contact" (click)="toggleNavbar()">Contact us</li>
-            </ul>
+                      <a class="navbar-brand" href="#">
+                      </a>
+                      <button class="navbar-toggler" type="button"
+                      (click)="toggleNavbar()">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                      [ngClass]="{ 'show': navbarOpen }">
+                        <ul class="navbar-nav mr-auto menu-items">
+                          <li class="nav-item" routerLink="" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Home</li>
+                          <li class="nav-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">About</li>
+                          <li class="nav-item" routerLink= "/products" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Products</li>
+                          <li class="nav-item" routerLink="/comingup" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Coming up</li> 
+                          <li class="nav-item" routerLink="/contact" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Contact us</li>
+                        </ul>
+                    </div>
+               </nav>
           </div>
-        </nav>
-      </div>
       <div class="col-sm-2 col-md-2 col-xs-12 menu">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="collapse navbar-collapse"
             [ngClass]="{ 'show': navbarOpen }">
         <ul class="navbar-nav mr-auto menu-items">
-          <a href="http://www.facebook.com" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
-          <a href="http://www.instagram.com" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+         <!--<a href="#"><li><i class="fab fa-facebook-f"></i></li></a>--> 
+          <a href="https://www.instagram.com/themalletstudio/" target="_blank"><li><i class="fab fa-instagram" style="font-size: 25px;"></i></li></a>
         </ul>
       </div>
     </nav>
