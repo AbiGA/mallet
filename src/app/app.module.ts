@@ -27,6 +27,11 @@ import { RobbiechairComponent } from './pages/robbiechair/robbiechair.component'
 import { ScrolltopComponent } from './components/scrolltop/scrolltop.component';
 import { AssociationComponent } from './components/association/association.component';
 import { ProductlucernapieComponent } from './pages/productlucernapie/productlucernapie.component';
+import { ProductsinsidestumprobbiesofaComponent } from './pages/productsinsidestumprobbiesofa/productsinsidestumprobbiesofa.component';
+import { ProductsinsidestumpairshelfComponent } from './pages/productsinsidestumpairshelf/productsinsidestumpairshelf.component';
+import { Productsinsidewing2Component } from './pages/productsinsidewing2/productsinsidewing2.component';
+import { ProductsinsidewingrackComponent } from './pages/productsinsidewingrack/productsinsidewingrack.component';
+import { ProductsinsidewingchairComponent } from './pages/productsinsidewingchair/productsinsidewingchair.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +55,12 @@ import { ProductlucernapieComponent } from './pages/productlucernapie/productluc
     RobbiechairComponent,
     ScrolltopComponent,
     AssociationComponent,
-    ProductlucernapieComponent
+    ProductlucernapieComponent,
+    ProductsinsidestumprobbiesofaComponent,
+    ProductsinsidestumpairshelfComponent,
+    Productsinsidewing2Component,
+    ProductsinsidewingrackComponent,
+    ProductsinsidewingchairComponent
   ],
   imports: [
     BrowserModule,

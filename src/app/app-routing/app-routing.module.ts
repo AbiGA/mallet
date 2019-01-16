@@ -17,6 +17,11 @@ import { ProductlucernapieComponent } from '../pages/productlucernapie/productlu
 import { ProductsinsidebratusarborComponent } from '../pages/productsinsidebratusarbor/productsinsidebratusarbor.component';
 import { ProductsinsidebratustrigonoComponent } from '../pages/productsinsidebratustrigono/productsinsidebratustrigono.component';
 import { RobbiechairComponent } from '../pages/robbiechair/robbiechair.component';
+import { ProductsinsidestumpairshelfComponent } from '../pages/productsinsidestumpairshelf/productsinsidestumpairshelf.component';
+import { ProductsinsidestumprobbiesofaComponent } from '../pages/productsinsidestumprobbiesofa/productsinsidestumprobbiesofa.component';
+import { Productsinsidewing2Component } from '../pages/productsinsidewing2/productsinsidewing2.component';
+import { ProductsinsidewingchairComponent } from '../pages/productsinsidewingchair/productsinsidewingchair.component';
+import { ProductsinsidewingrackComponent } from '../pages/productsinsidewingrack/productsinsidewingrack.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,7 +39,12 @@ const routes: Routes = [
   { path: 'productrobbiechair', component:RobbiechairComponent },
   { path: 'productbratusarbor', component:ProductsinsidebratusarborComponent },
   { path: 'productstump', component:ProductsinsidestumpComponent },
+  { path: 'productstumpshelf', component:ProductsinsidestumpairshelfComponent },
+  { path: 'productstumpsofa', component:ProductsinsidestumprobbiesofaComponent },
   { path: 'productwing', component:ProductsinsidewingComponent },
+  { path: 'productwing2', component:Productsinsidewing2Component },
+  { path: 'productwingchair', component:ProductsinsidewingchairComponent },
+  { path: 'productwingrack', component:ProductsinsidewingrackComponent },
   { path: 'comingup', component: ComingupComponent },
   { path: "**", redirectTo: "error-404" }
 ];
