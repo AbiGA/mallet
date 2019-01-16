@@ -122,7 +122,7 @@ input {
     position: absolute;
     top: -5%;
     margin-top: -2%;
-    left: 30%;
+    left: 27%;
     transform: translate(-50%, -50%);
 }
 
@@ -131,16 +131,16 @@ button {
     border: none;
     position: absolute;
     top: -19%;
-    right: 38%;
-    margin-top: -3%;
+    right: 41%;
+    margin-top: -4%;
 }
 
 .download {
     text-align: right;
     h3{
         position: absolute;
-        top: -22%;
-        right: 1%;
+        margin-top: -2%;
+        right: 8%;
     }
 }
 
@@ -177,6 +177,12 @@ i {
 h3 {
     color: #8f7d4f;
     font-size: 14px;
+}
+
+h4 {
+    font-size: 16px;
+    position: absolute;
+    top: 45%;
 }
 
 .row_foot {
@@ -217,6 +223,35 @@ input[type=submit] {
 
 img {
     margin-left: 26%;
+}
+
+.tip {
+    top: 45%;
+}
+
+.scrollup {
+    cursor: pointer;
+    color:#8f7d4f;
+    font-size: 30px;
+    position: absolute;
+    top: 30%
+}
+
+.bent {
+    margin-top: 2%;
+}
+
+.last {
+    h4 {
+        font-size: 14px;
+    }
+}
+
+.da {
+    text-align: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
 }
 
 @media (max-width: 1920px) {
@@ -300,6 +335,7 @@ img {
         position: relative !important;
         right: 0 !important;
         padding: 3%;
+        top: 0;
     }
     .last {
         text-align: center;
@@ -325,7 +361,32 @@ img {
     img {
         margin-left: 2%;
     }
+    .association {
+        width: 100% !important;
+    }
+    .bent {
+        width: 60% !important;
+        margin-top: 24%;
+    }
+    h4 {
+        font-size: 20px;
+        position: relative;
+    }
+    .scrollup {
+        position: relative;
+        top: 0;
+    }
+    .da {
+        text-align: center;
+    }
+    .inputclass {
+        margin-top: 8% !important;
+    }
+    .download h3 {
+        right: 2%;
+    }
 }
+
 
 @media (max-width: 360px) {
     input[type=submit] {

@@ -19,5 +19,5 @@ export class HomeComponent implements OnInit {
   }
   ngAfterViewInit() {
     window.scrollTo(0, 0);
-    
+  }
 }

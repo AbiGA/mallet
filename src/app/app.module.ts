@@ -24,6 +24,9 @@ import { ProductsinsidelucernarelicaComponent } from './pages/productsinsideluce
 import { ProductsinsidebratusarborComponent } from './pages/productsinsidebratusarbor/productsinsidebratusarbor.component';
 import { ProductsinsidebratustrigonoComponent } from './pages/productsinsidebratustrigono/productsinsidebratustrigono.component';
 import { RobbiechairComponent } from './pages/robbiechair/robbiechair.component';
+import { ScrolltopComponent } from './components/scrolltop/scrolltop.component';
+import { AssociationComponent } from './components/association/association.component';
+import { ProductlucernapieComponent } from './pages/productlucernapie/productlucernapie.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { RobbiechairComponent } from './pages/robbiechair/robbiechair.component'
     ProductsinsidelucernarelicaComponent,
     ProductsinsidebratusarborComponent,
     ProductsinsidebratustrigonoComponent,
-    RobbiechairComponent
+    RobbiechairComponent,
+    ScrolltopComponent,
+    AssociationComponent,
+    ProductlucernapieComponent
   ],
   imports: [
     BrowserModule,

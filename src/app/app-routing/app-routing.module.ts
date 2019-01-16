@@ -13,6 +13,7 @@ import { ProductsinsidewingComponent } from '../pages/productsinsidewing/product
 import { ProductsinsidelucernaobtuseComponent } from '../pages/productsinsidelucernaobtuse/productsinsidelucernaobtuse.component';
 import { ProductsinsidelucernapickComponent } from '../pages/productsinsidelucernapick/productsinsidelucernapick.component';
 import { ProductsinsidelucernarelicaComponent }  from '../pages/productsinsidelucernarelica/productsinsidelucernarelica.component';
+import { ProductlucernapieComponent } from '../pages/productlucernapie/productlucernapie.component';
 import { ProductsinsidebratusarborComponent } from '../pages/productsinsidebratusarbor/productsinsidebratusarbor.component';
 import { ProductsinsidebratustrigonoComponent } from '../pages/productsinsidebratustrigono/productsinsidebratustrigono.component';
 import { RobbiechairComponent } from '../pages/robbiechair/robbiechair.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'productlucerna', component:ProductsinsideComponent },
   { path: 'productlucernaobtuse', component:ProductsinsidelucernaobtuseComponent },
   { path: 'productlucernapick', component:ProductsinsidelucernapickComponent },
+  { path: 'productlucernapie', component:ProductlucernapieComponent },
   { path: 'productlucernarelica', component:ProductsinsidelucernarelicaComponent },
   { path: 'productbratus', component:ProductsinsidebratusComponent },
   { path: 'productbratustrigono', component:ProductsinsidebratustrigonoComponent },
