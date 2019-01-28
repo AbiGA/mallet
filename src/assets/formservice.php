@@ -12,7 +12,7 @@ if(empty($errors))
 	$request = json_decode($postdata);
  
 	$from_name = $request->name;
-        $from_email = $request->phone1;
+    $from_email = $request->phone1;
 	$from_mobile_number = $request->phone;
 	$from_option = $request->options;
 	$subject = $request->subject;

@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class ProductsinsidestumprobbiesofaComponent implements OnInit {
 
   constructor(private router: Router) {
+    document.getElementById("product").style.color="white";
   }
 
  image1 = "../../../assets/images/productinside/stumpcollection/robbiesofa/robbie-sofa.png";

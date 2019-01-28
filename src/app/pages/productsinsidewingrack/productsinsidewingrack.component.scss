@@ -72,6 +72,22 @@ p {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.banner_heading {    
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    visibility: visible;
+   // transform: translate(7%, -192%);
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
+.top_img {
+    visibility: hidden;
+    display: none;
+}
 
 @media (max-width: 1024px) {
     .img_class {
@@ -98,6 +114,13 @@ p {
         position: absolute;
         top: 40%;
         width: 100%;
+    }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
     }
     .col_story {
         text-align: left;

@@ -1,6 +1,6 @@
 .container-fluid, .container{
     padding-top: 4%;
-    padding-bottom: 10%;
+//    padding-bottom: 10%;
 }
 .container {
     text-align: center;
@@ -11,6 +11,23 @@ h2 {
 }
 .product_heading {
     font-size: 40px;
+}
+.banner_heading {
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    visibility: visible;
+     h4 {
+         p {
+             font-size: 18px;
+             width: 80%;
+         }
+     }
+}
+
+.top_img {
+    visibility: hidden;
+    display: none;
 }
 h4 {
     color: #8f7d4f;
@@ -104,7 +121,6 @@ p {
     .zoomed_image {
         width: 100%;
     }
-
     .banner_img {
         margin-top: 20%;
         margin-bottom: 20%;
@@ -137,6 +153,13 @@ p {
     .img_class {
         top: 28%;
         width: 100%;
+    }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
     }
     .col-sm-6, .col-sm-5, .col {
         padding-left: 10%;

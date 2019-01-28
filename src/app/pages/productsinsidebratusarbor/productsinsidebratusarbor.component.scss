@@ -14,6 +14,23 @@ h2 {
 .product_heading {
     font-size: 40px;
 }
+.banner_heading {    
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    visibility: visible;
+   // transform: translate(7%, -192%);
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
+
+.top_img {
+    visibility: hidden;
+    display: none;
+}
 p {
     color: #8f7d4f;
     margin-bottom: 0rem;
@@ -86,12 +103,14 @@ span {
     .img_class {
         width: 100%;
     }
+
 }
 
 @media (max-width: 768px) {
     .zoomed_image {
         width: 100%;
     }
+   
     .banner_img {
         margin-top: 20%;
         margin-bottom: 20%;
@@ -112,6 +131,13 @@ span {
         position: absolute;
         top: 40%;
         width: 100%;
+    }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
     }
     .col_story {
         text-align: left;

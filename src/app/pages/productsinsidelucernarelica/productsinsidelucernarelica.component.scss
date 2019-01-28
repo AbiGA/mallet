@@ -21,9 +21,22 @@ h4 {
 .product_heading {
     font-size: 40px;
 }
+.banner_heading {
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    visibility: visible;
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
 
-
-
+.top_img {
+    visibility: hidden;
+    display: none;
+}
 span {
     font-size: 17px;
     display: inline-flex;
@@ -138,12 +151,19 @@ span {
 
 @media (max-width: 670px) {
     .img_class {
-        position: absolute;
         top: 40%;
         width: 100%;
     }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
+    }
     .col_story {
         text-align: left;
+        padding-top: 30%;
     }
     .deisgn {
         .col p {

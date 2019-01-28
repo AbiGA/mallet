@@ -1,6 +1,6 @@
 .container-fluid, .container{
     padding-top: 4%;
-    padding-bottom: 10%;
+  //  padding-bottom: 10%;
 }
 .container {
     text-align: center;
@@ -12,6 +12,23 @@ h2 {
 
 .product_heading {
     font-size: 40px;
+}
+
+.banner_heading {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    visibility: visible;
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
+
+.top_img {
+    visibility: hidden;
+    display: none;
 }
 
 h4 {
@@ -86,6 +103,7 @@ p {
     text-align: center;
 }    
 
+
 @media (max-width: 1024px) {
     h2 {
         font-size: 46px;
@@ -99,6 +117,10 @@ p {
     
     .col_story {
         text-align: center;
+    }
+    .banner_heading {
+        top: 20%;
+        right: 27%;
     }
 }
 
@@ -115,7 +137,11 @@ p {
     }
     .two {
         text-align: right;
-    }    
+    }  
+    .banner_heading {
+        top: 23%;
+        right: 10%;
+    }  
 }
 
 @media (max-width: 670px) {
@@ -124,7 +150,13 @@ p {
         top: 25%;
         width: 80%;
     }
-
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
+    }
     .deisgn {
         padding-bottom: 20%
     }

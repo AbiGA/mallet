@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from '../app/pages/home/home.component';
@@ -32,6 +34,12 @@ import { ProductsinsidestumpairshelfComponent } from './pages/productsinsidestum
 import { Productsinsidewing2Component } from './pages/productsinsidewing2/productsinsidewing2.component';
 import { ProductsinsidewingrackComponent } from './pages/productsinsidewingrack/productsinsidewingrack.component';
 import { ProductsinsidewingchairComponent } from './pages/productsinsidewingchair/productsinsidewingchair.component';
+import { ProductsinsideratiocorinthianComponent } from './pages/productsinsideratiocorinthian/productsinsideratiocorinthian.component';
+import { ProductsinsideratioionicComponent } from './pages/productsinsideratioionic/productsinsideratioionic.component';
+import { ProductsinsideratiodoricComponent } from './pages/productsinsideratiodoric/productsinsideratiodoric.component';
+import { ProductsinsideratioergosComponent } from './pages/productsinsideratioergos/productsinsideratioergos.component';
+import { ProductsinsideratiothewallComponent } from './pages/productsinsideratiothewall/productsinsideratiothewall.component';
+import { ProductsinsideratiotableComponent } from './pages/productsinsideratiotable/productsinsideratiotable.component';
 
 @NgModule({
   declarations: [
@@ -60,13 +68,22 @@ import { ProductsinsidewingchairComponent } from './pages/productsinsidewingchai
     ProductsinsidestumpairshelfComponent,
     Productsinsidewing2Component,
     ProductsinsidewingrackComponent,
-    ProductsinsidewingchairComponent
+    ProductsinsidewingchairComponent,
+    ProductsinsideratiocorinthianComponent,
+    ProductsinsideratioionicComponent,
+    ProductsinsideratiodoricComponent,
+    ProductsinsideratioergosComponent,
+    ProductsinsideratiothewallComponent,
+    ProductsinsideratiotableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpModule,
+    NgbModule,
+    NgbAlertModule,
+    NgbPaginationModule,
     ScrollToModule.forRoot()
   ],
   providers: [],

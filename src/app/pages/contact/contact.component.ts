@@ -23,6 +23,7 @@ export class ContactComponent {
 
 
   constructor(private formBuilder: FormBuilder, private formService: ContactformService, private router: Router) { 
+    document.getElementById("product").style.color="#8f7d4f";
     this.createForm();
 }
 
@@ -46,9 +47,9 @@ submitForm(data) { console.log(data);
     .subscribe(res => {
       alert("Contact form successfully submitted. Thank you, We will get back to you soon!");
       this.router.navigate(['/home']);
-      console.log("Mail sent", res);
+    //  console.log("Mail sent", res);
     }, error => {
-      console.log("Failed",error);
+   //   console.log("Failed",error);
     });
 }
 

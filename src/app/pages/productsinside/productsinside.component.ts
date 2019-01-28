@@ -13,6 +13,7 @@ export class ProductsinsideComponent implements OnInit {
   private yScrollStack: number[] = [];
 
   constructor(private router: Router, private location: Location) {
+    document.getElementById("product").style.color="white";
    }
 
   image1 = "../../../assets/images/productinside/lucernacollection/Lucerna/Lucerna.png";

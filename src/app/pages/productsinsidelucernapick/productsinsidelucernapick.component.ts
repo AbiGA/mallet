@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class ProductsinsidelucernapickComponent implements OnInit {
 
   constructor(private router: Router) {
+    document.getElementById("product").style.color="white";
   }
 
  image1 = "../../../assets/images/productinside/lucernacollection/pick/pick1.png";

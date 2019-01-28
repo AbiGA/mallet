@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class ProductsinsidewingComponent implements OnInit {
 
   constructor(private router: Router) {
+    document.getElementById("product").style.color="white";
   }
 
  image1 = "../../../assets/images/productinside/wingcollection/Wing1/wing11.png";

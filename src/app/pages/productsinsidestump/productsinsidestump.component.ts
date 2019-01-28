@@ -9,13 +9,13 @@ import { Router } from '@angular/router';
 export class ProductsinsidestumpComponent implements OnInit {
 
   constructor(private router: Router) {
+     document.getElementById("product").style.color="white";
   }
 
  image1 = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table1.png";
  image2 = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table2.png";
  image3 = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table3.png";
- image4 = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table4.png";
-
+ image4 = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table4.png"
  image1_large = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table1.png";
  image2_large = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table2.png";
  image3_large = "../../../assets/images/productinside/stumpcollection/Stump table/stump-table3.png";

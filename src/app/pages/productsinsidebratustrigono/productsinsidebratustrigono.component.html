@@ -1,11 +1,15 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-<div class="container-fluid" style="padding: 0;">  
+<div class="container-fluid" style="padding: 0; position: relative;">  
   <img style="width: 100%;" src="../../../assets/images/productinside/bratuscollection/Trigono/trigonocentre.png">
+  <div class="banner_heading">
+      <h4>Trigono<br><p style="margin-bottom: 0;">Material: Oak legs, with beech for the top and horizontals</p>
+        <p>Casual Seating Area; Tables and Stands</p></h4>
+  </div>
 </div>
 
 <div class="container-fluid">
-  <div class="row">
+  <div class="row top_img">
     <div class="col-sm-2 col-xs-12"></div>
     <div class="col-sm-4 col-xs-12">
       <img class="zoomed_image"  src="{{mainimage}}">
@@ -20,10 +24,10 @@
 <div class="container">
     <div class="row">
         <div class="col">
-          <img src="{{image1}}" style="width: 60%"  (click)="changeMainImage(image1_large)" title="click here">
+          <img src="{{image1}}" style="width: 100%"  (click)="changeMainImage(image1_large)">
         </div>
         <div class="col">
-          <img src="{{image2}}" style="width: 60%" (click)="changeMainImage(image2_large)" title="click here">
+          <img src="{{image2}}" style="width: 100%" (click)="changeMainImage(image2_large)">
         </div>
       </div>
 </div>
@@ -63,19 +67,19 @@
     </div>
   <div class="row" style="text-align: center;">
     <div class="col-sm-1"></div>
-    <div class="col">
+    <div class="col-md-3 col-sm-12">
       <img style="height: 141.77px;" [routerLink]="['/productbratus']" title="Click here" src="../../../assets/images/products/brats2.png">
               <h4 style="margin-right: 0;" [routerLink]="['/productbratus']">Bratus<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
                 arrow_right_alt
                 </i></a></span></h4>
     </div>
-    <div class="col">
+    <div class="col-md-3 col-sm-12">
         <img style="height: 141.77px;" [routerLink]="['/productrobbiechair']" title="Click here" src="../../../assets/images/products/brats 2.png">
               <h4 style="margin-right: 0;" [routerLink]="['/productrobbiechair']">Robbie chair<br><span>learn more <a [routerLink]="['/productrobbiechair']"><i class="material-icons">
                 arrow_right_alt
                 </i></a></span></h4>
       </div>
-    <div class="col">
+    <div class="col-md-4 col-sm-12">
       <img style="height: 141.77px;" [routerLink]="['/productbratusarbor']" title="Click here" src="../../../assets/images/products/arbor.png">
       <h4 style="margin-right: 0;" [routerLink]="['/productbratusarbor']">Arbor<br><span>learn more <a [routerLink]="['/productbratusarbor']"><i class="material-icons">
           arrow_right_alt

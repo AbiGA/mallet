@@ -8,7 +8,9 @@ import { Router } from '@angular/router';
 })
 export class ProductsinsidebratustrigonoComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    document.getElementById("product").style.color="white";
+  }
 
   image1 = "../../../assets/images/productinside/bratuscollection/Trigono/trigono1.png";
  image2 = "../../../assets/images/productinside/bratuscollection/Trigono/trigono2.png";

@@ -10,21 +10,30 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-8 col-md-8 col-xs-12 menu">
               <nav class="navbar navbar-expand-lg navbar-dark">
-                      <a class="navbar-brand" href="#">
-                      </a>
-                      <button class="navbar-toggler" type="button"
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button"
                       (click)="toggleNavbar()">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse"
-                      [ngClass]="{ 'show': navbarOpen }">
-                        <ul class="navbar-nav mr-auto menu-items">
-                          <li class="nav-item" routerLink="" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Home</li>
-                          <li class="nav-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">About</li>
-                          <li class="nav-item" routerLink= "/products" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Products</li>
-                          <li class="nav-item" routerLink="/comingup" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Coming up</li> 
-                          <li class="nav-item" routerLink="/contact" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Contact us</li>
-                        </ul>
+                    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+                      <ul class="navbar-nav mr-auto menu-items">
+                        <li class="nav-item" routerLink="" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Home</li>
+                        <li class="nav-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">About</li>
+                        <li id="product" class="nav-item dropdown" routerLink="/products" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">
+                     <!-- <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              Products
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li style="display: block;" class="nav-item dropdown-item" routerLink="/products" fragment="stump" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Stump Collection</li>
+                            <li style="display: block;" class="nav-item dropdown-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Wing Collection</li>
+                            <li style="display: block;" class="nav-item dropdown-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Lucerna Collection</li>
+                            <li style="display: block;" class="nav-item dropdown-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Ratio Collection</li>
+                            <li style="display: block;" class="nav-item dropdown-item" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Bratus Collection</li>
+                          </ul>-->
+                        Products</li>
+                        <li class="nav-item" routerLink="/comingup" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="toggleNavbar()">Coming up</li> 
+                        <li class="nav-item" routerLink="/contact" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  (click)="toggleNavbar()">Contact us</li>
+                      </ul>
                     </div>
                </nav>
           </div>

@@ -8,7 +8,9 @@ import { Router } from '@angular/router';
 })
 export class RobbiechairComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    document.getElementById("product").style.color="white";
+  }
 
  image1 = "../../../assets/images/productinside/robbiechair/robbie-chair.png";
  image2 = "../../../assets/images/productinside/robbiechair/robbie-chair-2.png";

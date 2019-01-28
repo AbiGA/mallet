@@ -1,0 +1,261 @@
+
+.container-fluid, .container{
+    padding-top: 4%;
+  //  padding-bottom: 10%;
+   
+}
+.container {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+h2 {
+    color: #8f7d4f;
+    font-size: 30px;
+}
+.product_heading {
+    font-size: 40px;
+}
+.banner_heading {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    visibility: visible;
+     h4 {
+         p {
+             font-size: 18px;
+             width: 80%
+         }
+     }
+}
+
+.top_img {
+    visibility: hidden;
+    display: none;
+}
+p {
+    color: #8f7d4f;
+    margin-bottom: 0rem;
+}
+.pie {
+    h2 {
+        p {
+            display: flex;
+            left: 0;
+            font-size: 16px;
+        }
+    }
+}
+
+h4 {
+    color: #8f7d4f;
+    font-size: 25px;
+    outline: none;
+}
+
+
+span {
+    font-size: 17px;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+    a {
+        color: #8f7d4f;
+    }
+    i {
+        cursor: pointer;
+    }
+}
+
+.story {
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   .col h2 {
+       margin-top: 25%;
+    }
+   .col p {
+        float: left;
+        text-align: justify;
+        margin-top: 1%;
+        width: 100%;
+    }
+}
+
+.deisgn {
+    .col h2 {
+        margin-top: 20%;
+    }
+    .col p {
+        width: 100%;
+        margin-top: 1%;
+    }
+}
+
+.banner_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 60px;
+    }
+    .product_heading {
+        font-size: 60px;
+    }
+    p {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .similarproducts {
+        padding-top: 10%;
+    }
+    .pie h2 p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product_heading {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .pie h2 p {
+        font-size: 20px;
+    }
+    .zoomed_image {
+        width: 100%;
+    }
+    .img_class {
+        width: 100%;
+    }
+    .story {
+        padding-top: 14%;
+    }
+    .similarproducts {
+        padding-top: 10%;
+    }
+    
+}
+
+@media (max-width: 678px) {
+    .col-sm-6, .col-sm-5, .col {
+        padding-left: 10%;
+    }
+    .col {
+        text-align: center;
+    }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
+    }
+    .img_class {
+        position: relative;
+        top: 15%;
+        width: 100%;
+    }
+    .col_story {
+        text-align: left;
+    }
+    .deisgn {
+        .col p {
+            width: 100%;
+        }
+    }
+    p {
+        font-size: 14px;
+        width: 100%;
+        text-align: justify;
+    }
+    .story {
+       .col p {
+            text-align: start;
+            width: 100%;
+        }
+    }
+    span {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .product_heading {
+        font-size: 30px;
+     //   padding-left: 10%;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: left;
+    }
+      .pie {
+        h2 {
+            p {
+                width: 100%;
+                line-height: 1.5;
+                text-align: justify;
+                font-size: 14px;
+            }   
+        }
+    }
+    .similarproducts {
+        padding-top: 20%;
+    }
+    .banner_img {
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+ }
+
+
+ @media (max-width: 414px) {
+    .img_class {
+        top: 20%
+    }
+    .similarproducts {
+       padding-top: 20% !important;
+       padding-bottom: 5%;
+    }
+   .product_heading {
+       margin-top: -114%;
+   }
+   .pie h2 p {
+       width: 100%;
+   }
+   .zoomed_image {
+       margin-top: 28% !important;
+   }
+   .design_text {
+    margin-top: -84%;
+    }
+    .design_img {
+        top: 50%;
+    }
+}
+@media (max-width: 360px) {
+   .product_heading {
+       margin-top: -124%;
+   }
+   .zoomed_image {
+       margin-top: 40% !important;
+   }
+}
+
+@media (max-width: 320px) {
+    .design_img {
+        top: 70%;
+    }
+ }

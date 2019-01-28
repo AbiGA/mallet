@@ -22,6 +22,14 @@ import { ProductsinsidestumprobbiesofaComponent } from '../pages/productsinsides
 import { Productsinsidewing2Component } from '../pages/productsinsidewing2/productsinsidewing2.component';
 import { ProductsinsidewingchairComponent } from '../pages/productsinsidewingchair/productsinsidewingchair.component';
 import { ProductsinsidewingrackComponent } from '../pages/productsinsidewingrack/productsinsidewingrack.component';
+import { ProductsinsideratiocorinthianComponent } from '../pages/productsinsideratiocorinthian/productsinsideratiocorinthian.component';
+import { ProductsinsideratioionicComponent } from '../pages/productsinsideratioionic/productsinsideratioionic.component';
+import { ProductsinsideratiodoricComponent } from '../pages/productsinsideratiodoric/productsinsideratiodoric.component';
+import { ProductsinsideratioergosComponent } from '../pages/productsinsideratioergos/productsinsideratioergos.component';
+import { ProductsinsideratiotableComponent } from '../pages/productsinsideratiotable/productsinsideratiotable.component';
+import { ProductsinsideratiothewallComponent } from '../pages/productsinsideratiothewall/productsinsideratiothewall.component';
+
+import { from } from 'rxjs';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -45,6 +53,12 @@ const routes: Routes = [
   { path: 'productwing2', component:Productsinsidewing2Component },
   { path: 'productwingchair', component:ProductsinsidewingchairComponent },
   { path: 'productwingrack', component:ProductsinsidewingrackComponent },
+  { path: 'corinthian', component:ProductsinsideratiocorinthianComponent },
+  { path: 'ionic', component:ProductsinsideratioionicComponent },
+  { path: 'doric', component:ProductsinsideratiodoricComponent },
+  { path: 'ergos', component:ProductsinsideratioergosComponent },
+  { path: 'ratiotable', component:ProductsinsideratiotableComponent },
+  { path: 'thewall', component:ProductsinsideratiothewallComponent },
   { path: 'comingup', component: ComingupComponent },
   { path: "**", redirectTo: "error-404" }
 ];

@@ -13,6 +13,7 @@ export class ProductlucernapieComponent implements OnInit {
   private yScrollStack: number[] = [];
 
   constructor(private router: Router, private location: Location) {
+    document.getElementById("product").style.color="white";
    }
 
   image1 = "../../../assets/images/productinside/pie 1.png";

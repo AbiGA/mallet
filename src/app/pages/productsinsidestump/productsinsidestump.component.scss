@@ -66,7 +66,22 @@ p {
         text-align: justify;
     }
 }
-
+.banner_heading {    
+    position: absolute;
+    top: 52%;
+    left: 60%;
+    visibility: visible;
+   // transform: translate(7%, -192%);
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
+.top_img {
+    visibility: hidden;
+    display: none;
+}
 .banner_img {
     margin-bottom: 10%;
 }
@@ -111,7 +126,13 @@ p {
             width: 100%;
         }
     }
-
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
+    }
     .story {
        .col p {
             text-align: justify;

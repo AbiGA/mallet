@@ -37,6 +37,32 @@ button.navbar-toggler {
     background-color: transparent;
     text-align: center;
 }
+.dropdown-toggle {
+    display: inline;
+    padding: 0;
+    color: #8f7d4f;
+    /* cursor: pointer; */
+    outline: none;
+    margin-left: 5%;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #8f7d4f;
+}
+
+.navbar-dark .navbar-nav .nav-link, a, a.dropdown-item.active {
+    color: #8f7d4f !important;
+}
+
+.dropdown-item {
+    display: block;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  //  background: transparent;
+}
+a.dropdown-item.active {
+    background-color: transparent;
+}
 
 img {
     position: relative;
@@ -69,7 +95,11 @@ img {
         color: #fff;
         text-decoration: none;
     }
-
+    #product:hover{
+        background-color: transparent;
+        color: #fff !important;
+        text-decoration: none;
+    }
     .selected {
         color: white;
     }

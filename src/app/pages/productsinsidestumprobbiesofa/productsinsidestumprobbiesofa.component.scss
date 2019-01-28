@@ -75,9 +75,29 @@ p {
     padding-top: 10%;
 }
 
+.banner_heading {    
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    visibility: visible;
+   // transform: translate(7%, -192%);
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
+.top_img {
+    visibility: hidden;
+    display: none;
+}
+
 @media (max-width: 1024px) {
     .img_class {
         width: 100%;
+    }
+    .banner_heading {
+        top: 16%;
     }
 }
 
@@ -88,6 +108,12 @@ p {
     .banner_img {
         margin-top: 20%;
         margin-bottom: 20%;
+    }
+    .banner_heading {
+        top: 6%;
+    }
+    .banner_heading h4 p {
+        width: 90%;
     }
     .col.col_story {
         padding-top: 13%;
@@ -102,6 +128,13 @@ p {
         position: absolute;
         top: 40%;
         width: 100%;
+    }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
     }
     .col_story {
         text-align: left;

@@ -1,7 +1,7 @@
 
 .container-fluid, .container{
     padding-top: 4%;
-    padding-bottom: 10%;
+  //  padding-bottom: 10%;
    
 }
 .container {
@@ -9,6 +9,24 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.banner_heading {
+    position: absolute;
+    top: 52%;
+    right: 40%;
+    visibility: visible;
+     h4 {
+         p {
+             font-size: 18px;
+         }
+     }
+}
+
+.top_img {
+    visibility: hidden;
+    display: none;
+}
+
 h2 {
     color: #8f7d4f;
     font-size: 30px;
@@ -21,6 +39,7 @@ p {
     margin-bottom: 0rem;
 }
 .pie {
+    visibility: hidden;
     h2 {
         p {
             display: flex;
@@ -32,7 +51,7 @@ p {
 
 h4 {
     color: #8f7d4f;
-    font-size: 25px;
+    font-size: 26px;
     outline: none;
 }
 
@@ -96,6 +115,10 @@ span {
     .pie h2 p {
         font-size: 30px;
     }
+    .banner_heading {
+        top: 25%;
+        right: 39%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -119,7 +142,8 @@ span {
         width: 25%;
     }
     .story {
-        padding-top: 14%;
+        //padding-top: 14%;
+        padding-bottom: 8%;
     }
     .similarproducts {
         padding-top: 10%;
@@ -130,6 +154,13 @@ span {
 @media (max-width: 670px) {
     .col-sm-6, .col-sm-5, .col {
         padding-left: 10%;
+    }
+    .banner_heading {
+        visibility: hidden;
+    }
+    .top_img {
+        visibility: visible;
+        display: flex;
     }
     .col {
         text-align: center;
@@ -153,6 +184,7 @@ span {
         text-align: justify;
     }
     .story {
+        padding-bottom: 28%;
        .col p {
             text-align: start;
             width: 100%;
@@ -176,6 +208,7 @@ span {
         text-align: left;
     }
       .pie {
+          visibility: visible;
         h2 {
             p {
                 width: 100%;
@@ -197,7 +230,7 @@ span {
 
  @media (max-width: 414px) {
     .img_class {
-        top: 20%
+        top: 10%
     }
     .similarproducts {
        padding-top: 50% !important;
