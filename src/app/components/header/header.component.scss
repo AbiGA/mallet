@@ -56,23 +56,19 @@ button.navbar-toggler {
 .dropdown-item {
     display: block;
 }
-
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   //  background: transparent;
 }
 a.dropdown-item.active {
     background-color: transparent;
 }
-
 img {
     position: relative;
     top: 16%;
 }
-
 .active {
     color: white !important;
 }
-
  ul.menu-items {
      list-style: none;
      display: flex;
@@ -103,13 +99,9 @@ img {
     .selected {
         color: white;
     }
-
-
  }
- 
   .main-menu {
-      background-color: #141414;
-      
+      background-color: #141414;    
   }
 
   @media (max-width: 1920px) {

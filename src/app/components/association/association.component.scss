@@ -24,7 +24,7 @@ h4 {
     
 }
 
-@media (max-width: 670px) {
+@media (max-width: 678px) {
     h4 {
         position: relative !important;
         font-size: 14px;
@@ -45,5 +45,11 @@ h4 {
     .row {
         padding-left: 0 !important;
         padding-right: 0 !important;
+    }
+    .col-sm-5 {
+        h4 {
+            text-align: center;
+            padding-top: 3%;
+        }
     }
 }
