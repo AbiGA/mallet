@@ -23,7 +23,7 @@ export class ContactComponent {
 
 
   constructor(private formBuilder: FormBuilder, private formService: ContactformService, private router: Router) { 
-    document.getElementById("product").style.color="#8f7d4f";
+    document.getElementById("product").style.color="#BDB299";
     this.createForm();
 }
 

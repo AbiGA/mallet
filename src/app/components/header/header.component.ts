@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   navbarOpen = false;
 
   toggleNavbar() {
+    document.getElementById("scrolldiv").style.backgroundColor="#141414";
 //    this.router.navigate( ['products' ], {fragment: 'stump'});
     this.navbarOpen = !this.navbarOpen;
   }

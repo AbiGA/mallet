@@ -2,8 +2,15 @@ i {
     cursor: pointer;
     color:#8f7d4f;
     font-size: 30px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
 }
 
 div {
     padding-right: 6%;
+}
+
+#scrolldiv {
+    display: none;
 }
