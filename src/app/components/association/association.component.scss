@@ -1,6 +1,6 @@
 h4 {
     position: absolute;
-    font-size: 16px;
+    font-size: 16px !important;
     color: #c3c3c3;
     top: 45%;
     right: 4px;
@@ -26,7 +26,7 @@ h4 {
 @media (max-width: 678px) {
     h4 {
         position: relative !important;
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .col-sm-3 {
         text-align: center !important;
