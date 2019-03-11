@@ -20,16 +20,16 @@ export class FooterComponent implements OnInit {
   }
 
   submitForm(data) { console.log(data);
-    this.formService.sendBrochure(data)
-      .subscribe(res => {
-        alert("Thank you! You will receive our catalogue shortly. ");
-        this.router.navigate(['/home']);
-        this.brochureForm.reset();
-        //console.log("Mail sent", res);
-      }, error => {
-        alert("Please try again later.");
-      //  console.log("Failed",error);
-      });
+    // this.formService.sendBrochure(data)
+    //   .subscribe(res => {
+    //     alert("Thank you! You will receive our catalogue shortly. ");
+    //     this.router.navigate(['/home']);
+    //     this.brochureForm.reset();
+    //     //console.log("Mail sent", res);
+    //   }, error => {
+    //     alert("Please try again later.");
+    //   //  console.log("Failed",error);
+    //   });
   }
 
 }
