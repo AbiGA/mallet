@@ -28,6 +28,22 @@ import { ProductsinsideratiodoricComponent } from '../pages/productsinsideratiod
 import { ProductsinsideratioergosComponent } from '../pages/productsinsideratioergos/productsinsideratioergos.component';
 import { ProductsinsideratiotableComponent } from '../pages/productsinsideratiotable/productsinsideratiotable.component';
 import { ProductsinsideratiothewallComponent } from '../pages/productsinsideratiothewall/productsinsideratiothewall.component';
+import { ProductsinsideliloComponent } from '../pages/productsinsidelilo/productsinsidelilo.component';
+import { ProductsinsidelilokagamiComponent } from '../pages/productsinsidelilokagami/productsinsidelilokagami.component';
+import { ProductsinsideliloneruComponent } from '../pages/productsinsideliloneru/productsinsideliloneru.component';
+import { ProductsinsidelilozoComponent } from '../pages/productsinsidelilozo/productsinsidelilozo.component';
+import { ProductsinsidemensaComponent } from '../pages/productsinsidemensa/productsinsidemensa.component';
+import { ProductsinsidemensachaitableComponent } from '../pages/productsinsidemensachaitable/productsinsidemensachaitable.component';
+import { ProductsinsidemensacornulaComponent } from '../pages/productsinsidemensacornula/productsinsidemensacornula.component';
+import { ProductsinsidemensaroundcubeComponent } from '../pages/productsinsidemensaroundcube/productsinsidemensaroundcube.component';
+import { ProductsinsidemensascootComponent } from '../pages/productsinsidemensascoot/productsinsidemensascoot.component';
+import { ProductsinsidemensashadComponent } from '../pages/productsinsidemensashad/productsinsidemensashad.component';
+import { ProductsinsidemensastolicaComponent } from '../pages/productsinsidemensastolica/productsinsidemensastolica.component';
+import { ProductsinsidemiscellaneousarchitectureComponent } from '../pages/productsinsidemiscellaneousarchitecture/productsinsidemiscellaneousarchitecture.component';
+import { ProductsinsidemiscellaneousinsulaComponent } from '../pages/productsinsidemiscellaneousinsula/productsinsidemiscellaneousinsula.component';
+import { ProductsinsidemiscellaneouskreoComponent } from '../pages/productsinsidemiscellaneouskreo/productsinsidemiscellaneouskreo.component';
+import { ProductsinsidemiscellaneouslouvreComponent } from '../pages/productsinsidemiscellaneouslouvre/productsinsidemiscellaneouslouvre.component';
+import { ProductsinsidemiscellaneousquevenComponent } from '../pages/productsinsidemiscellaneousqueven/productsinsidemiscellaneousqueven.component';
 
 import { from } from 'rxjs';
 
@@ -59,6 +75,22 @@ const routes: Routes = [
   { path: 'ergos', component:ProductsinsideratioergosComponent },
   { path: 'ratiotable', component:ProductsinsideratiotableComponent },
   { path: 'thewall', component:ProductsinsideratiothewallComponent },
+  { path: 'lilo', component: ProductsinsideliloComponent },
+  { path: 'kagami', component: ProductsinsidelilokagamiComponent },
+  { path: 'neru', component: ProductsinsideliloneruComponent },
+  { path: 'zo', component: ProductsinsidelilozoComponent },
+  { path: 'mensa', component: ProductsinsidemensaComponent },
+  { path: 'chaitable', component: ProductsinsidemensachaitableComponent },
+  { path: 'cornula', component: ProductsinsidemensacornulaComponent },
+  { path: 'roundcube', component: ProductsinsidemensaroundcubeComponent },
+  { path: 'scoot', component: ProductsinsidemensascootComponent },
+  { path: 'shad', component: ProductsinsidemensashadComponent },
+  { path: 'stolica', component: ProductsinsidemensastolicaComponent },
+  { path: 'architecture', component: ProductsinsidemiscellaneousarchitectureComponent },
+  { path: 'insula', component: ProductsinsidemiscellaneousinsulaComponent },
+  { path: 'kreo', component: ProductsinsidemiscellaneouskreoComponent },
+  { path: 'louvre', component: ProductsinsidemiscellaneouslouvreComponent },
+  { path: 'queven', component: ProductsinsidemiscellaneousquevenComponent },
   { path: 'comingup', component: ComingupComponent },
   { path: "**", redirectTo: "error-404" }
 ];

@@ -47,7 +47,13 @@ img {
   h4 {
     font-size: 25px !important;
   }
-
+.row {
+  width: 100%;
+  margin: 0;
+}
+.col_story {
+  padding-left: 0;
+}
   @media(max-width: 678px) {
     h2 {
       font-size: 30px !important;

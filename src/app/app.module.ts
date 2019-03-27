@@ -40,6 +40,22 @@ import { ProductsinsideratiodoricComponent } from './pages/productsinsideratiodo
 import { ProductsinsideratioergosComponent } from './pages/productsinsideratioergos/productsinsideratioergos.component';
 import { ProductsinsideratiothewallComponent } from './pages/productsinsideratiothewall/productsinsideratiothewall.component';
 import { ProductsinsideratiotableComponent } from './pages/productsinsideratiotable/productsinsideratiotable.component';
+import { ProductsinsideliloComponent } from './pages/productsinsidelilo/productsinsidelilo.component';
+import { ProductsinsidelilokagamiComponent } from './pages/productsinsidelilokagami/productsinsidelilokagami.component';
+import { ProductsinsideliloneruComponent } from './pages/productsinsideliloneru/productsinsideliloneru.component';
+import { ProductsinsidelilozoComponent } from './pages/productsinsidelilozo/productsinsidelilozo.component';
+import { ProductsinsidemensaComponent } from './pages/productsinsidemensa/productsinsidemensa.component';
+import { ProductsinsidemensachaitableComponent } from './pages/productsinsidemensachaitable/productsinsidemensachaitable.component';
+import { ProductsinsidemensacornulaComponent } from './pages/productsinsidemensacornula/productsinsidemensacornula.component';
+import { ProductsinsidemensaroundcubeComponent } from './pages/productsinsidemensaroundcube/productsinsidemensaroundcube.component';
+import { ProductsinsidemensascootComponent } from './pages/productsinsidemensascoot/productsinsidemensascoot.component';
+import { ProductsinsidemensashadComponent } from './pages/productsinsidemensashad/productsinsidemensashad.component';
+import { ProductsinsidemensastolicaComponent } from './pages/productsinsidemensastolica/productsinsidemensastolica.component';
+import { ProductsinsidemiscellaneousarchitectureComponent } from './pages/productsinsidemiscellaneousarchitecture/productsinsidemiscellaneousarchitecture.component';
+import { ProductsinsidemiscellaneousinsulaComponent } from './pages/productsinsidemiscellaneousinsula/productsinsidemiscellaneousinsula.component';
+import { ProductsinsidemiscellaneouskreoComponent } from './pages/productsinsidemiscellaneouskreo/productsinsidemiscellaneouskreo.component';
+import { ProductsinsidemiscellaneouslouvreComponent } from './pages/productsinsidemiscellaneouslouvre/productsinsidemiscellaneouslouvre.component';
+import { ProductsinsidemiscellaneousquevenComponent } from './pages/productsinsidemiscellaneousqueven/productsinsidemiscellaneousqueven.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +90,23 @@ import { ProductsinsideratiotableComponent } from './pages/productsinsideratiota
     ProductsinsideratiodoricComponent,
     ProductsinsideratioergosComponent,
     ProductsinsideratiothewallComponent,
-    ProductsinsideratiotableComponent
+    ProductsinsideratiotableComponent,
+    ProductsinsideliloComponent,
+    ProductsinsidelilokagamiComponent,
+    ProductsinsideliloneruComponent,
+    ProductsinsidelilozoComponent,
+    ProductsinsidemensaComponent,
+    ProductsinsidemensachaitableComponent,
+    ProductsinsidemensacornulaComponent,
+    ProductsinsidemensaroundcubeComponent,
+    ProductsinsidemensascootComponent,
+    ProductsinsidemensashadComponent,
+    ProductsinsidemensastolicaComponent,
+    ProductsinsidemiscellaneousarchitectureComponent,
+    ProductsinsidemiscellaneousinsulaComponent,
+    ProductsinsidemiscellaneouskreoComponent,
+    ProductsinsidemiscellaneouslouvreComponent,
+    ProductsinsidemiscellaneousquevenComponent
   ],
   imports: [
     BrowserModule,
