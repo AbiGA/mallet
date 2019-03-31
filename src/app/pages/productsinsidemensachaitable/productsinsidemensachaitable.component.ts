@@ -21,7 +21,7 @@ export class ProductsinsidemensachaitableComponent implements OnInit {
   image2_large = "../../../assets/images/comingup/Mensa/Chai table/chaitable2.png";
   image3_large = "../../../assets/images/comingup/Mensa/Chai table/chaitable3.png";
 
-  mainimage = "../../../assets/images/comingup/Mensa/Mensa/Chai table/chaitable.png";
+  mainimage = "../../../assets/images/comingup/Mensa/Chai table/chaitable.png";
 
   changeMainImage(image: any){
     this.mainimage = image;

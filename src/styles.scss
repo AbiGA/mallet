@@ -39,7 +39,7 @@ img {
     width: 100%;
   }
   h2 {
-    font-size: 40px !important;
+    font-size: 35px !important;
   }
   p {
     font-size: 16px !important;
@@ -53,6 +53,18 @@ img {
 }
 .col_story {
   padding-left: 0;
+}
+.story, .deisgn {
+  padding-top: 3%;
+}
+.story {
+  padding-bottom: 3%;
+}
+.similarproducts {
+  padding-top: 5% !important;
+}
+i.material-icons {
+  z-index: 100;
 }
   @media(max-width: 678px) {
     h2 {

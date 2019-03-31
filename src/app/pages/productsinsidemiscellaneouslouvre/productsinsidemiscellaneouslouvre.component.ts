@@ -14,12 +14,12 @@ export class ProductsinsidemiscellaneouslouvreComponent implements OnInit {
   }
 
   image1 = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
-  image2 = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
-  image3 = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
+  image2 = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre2.png";
+  image3 = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre3.png";
 
   image1_large = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
-  image2_large = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
-  image3_large = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
+  image2_large = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre2.png";
+  image3_large = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre3.png";
 
   mainimage = "../../../assets/images/comingup/Miscellaneous/Louvre/Louvre.png";
 

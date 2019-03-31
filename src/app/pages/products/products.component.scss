@@ -169,6 +169,13 @@ p {
     }
 }
 
+.moblucerna, .mobbratus, .mobmensa {
+    display: none;
+}
+.desklucerna, .deskbratus, .deskmensa {
+    display: flex;
+}
+
 @media (max-width: 1024px) {
     .wing_flex {
         justify-content: left;
@@ -240,68 +247,18 @@ p {
     }
 }
 
-@media (max-width: 670px) {
-    .col-sm-4, .col-md-2, .col-lg-2 {
-         img {
-             position: relative;
-             left: 0;
-             top: 0;
-         }
-     }
- 
-     h2 {
-         margin: 0 auto;
-         font-size: 30px;
-     }
-
-     .product_heading {
-        font-size: 30px;
-    }
-
-     h3 {
-          font-size: 30px;
-    }
-
-    h4 {
-        font-size: 30px;
-        line-height: 1.5;
-    }
-    span {
-        font-size: 15px;
-    }
- 
-     p {
-         color: #c3c3c3;
-         width: 100%;
-         font-size: 14px;
-     }
-
-     .class_p {
-        position: relative;
-        width: 100%;
-        text-align: justify;
-        font-size: 14px;
-        margin-top: 16%;
-    }
-    .wing_p {
-        margin-top: 8%;
-    }
-    
-    .wing_collection {
-        p{
-            left: -25%;
-            top: 54%;
-        }
-    }
- }
-
- @media (max-width: 600px) {
+ @media (max-width: 678px) {
      .col-sm-10, .col-sm-3, .col, .col-sm-5, .col-sm-2, .col-sm-6 {
-        padding-left: 10%;
+        padding-left: 15px;
+        padding-right: 15px;
      }
-    .row {
-        padding-top: 21%;
+     .moblucerna, .mobbratus, .mobmensa {
+         display: block;
      }
+     .desklucerna, .deskbratus, .deskmensa {
+         display: none;
+     }
+
     .class_p {
         position: relative;
         width: 100%;
@@ -311,15 +268,18 @@ p {
         text-align: right;
         margin-top: 13%;
         h4 {
-            text-align: center;
-            margin-left: 24%;
+            margin-top: -20%;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: left;
         }
         p {
             font-size: 14px;
             text-align: justify;
-            width: 80%;
-            margin-top: 38%;
-            margin-left: 36%;
+            width: 100%;
+            margin-top: 47%;
+            padding-left: 15px;
+            padding-right: 15px;
         }
     }
     .bratus {
@@ -347,18 +307,25 @@ p {
 
     .stump {
         width: 300px;
-        margin-top: 0;
+        margin-top: -9%;
     }
     .wing {
-        padding-left: 10%;
         content: url('../../../assets/images/productinside/wingcollection/Wing1/mobile-wing-collection.png');
+        margin: 0 auto;
+        padding-top: 10%;
     } 
+    .mensaimg,.lucernaimg {
+        width: 350px;
+    }
+    .stump_p {
+        margin-top: 90%;
+    }
+    .stump_img {
+        text-align: center;
+    }
  }
 
  @media (max-width: 414px) {
-    .col-sm-10, .col-sm-3, .col, .col-sm-5, .col-sm-2, .col-sm-6 {
-        padding-left: 14%;
-     }
     .trigano_flex {
        position: absolute;
        padding-right: 10%;
@@ -367,25 +334,12 @@ p {
         border-left: none;
         margin-top: 42%;
     }
-    .stump_p {
-        margin-top: 70%;
-    }
     .stump_img {
         position: absolute;
         margin-top: 23%;
     }
     .wing_flex {
         padding-left: 0;
-    }
-    .wing_collection {
-        h4 {
-            margin-left: 0;
-            padding-top: 0;
-            margin-top: -30%;
-            text-align: left;
-            padding-left: 10%;
-        }
-       
     }
     p {
         font-size: 14px;
@@ -444,9 +398,6 @@ p {
 
 
  @media (max-width: 320px) {
-    .col-sm-10, .col-sm-3, .col, .col-sm-5, .col-sm-2, .col-sm-6 {
-        padding-left: 18%;
-     }
     .product_heading {
         font-size: 25px;
     }

@@ -10,7 +10,7 @@
     padding-right: 0;
 }
 h2 {
-    color: #8f7d4f;
+    color: #c3c3c3;
     font-size: 30px;
 }
 .onscroll {
@@ -50,7 +50,9 @@ h2 {
     left: 51%;
     visibility: visible;
      h4 {
+         color: #c3c3c3;
          p {
+             color: #c3c3c3;
              font-size: 18px;
              width: 80%
          }
@@ -62,7 +64,7 @@ h2 {
     display: none;
 }
 p {
-    color: #8f7d4f;
+    color: #c3c3c3;
     margin-bottom: 0rem;
 }
 .pie {
@@ -76,7 +78,7 @@ p {
 }
 
 h4 {
-    color: #8f7d4f;
+    color: #c3c3c3;
     font-size: 25px;
     outline: none;
 }
@@ -89,7 +91,7 @@ span {
     vertical-align: middle;
     cursor: pointer;
     a {
-        color: #8f7d4f;
+        color: #c3c3c3;
     }
     i {
         cursor: pointer;
@@ -220,6 +222,7 @@ span {
     }
     .product_heading {
         font-size: 30px;
+        display: none;
      //   padding-left: 10%;
     }
 
@@ -256,9 +259,6 @@ span {
        padding-top: 20% !important;
        padding-bottom: 5%;
     }
-   .product_heading {
-       margin-top: -122%;
-   }
    .pie h2 p {
        width: 100%;
    }

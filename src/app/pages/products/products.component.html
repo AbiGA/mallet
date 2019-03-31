@@ -97,26 +97,44 @@
             <div class="col-sm-1"></div>
         </div>
         <div class="row row_border"></div>
-  <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col stump_collection">
-      <h4 style="margin-right: 0;" [routerLink]="['/productlucerna']">Lucerna Collection<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
-        arrow_right_alt
-        </i></a></span></h4>
-     
-    <p class="class_p stump_p" style="right: 0;">
-      Lucerna highlights the beauty of the curve, reflected in the form and structure
-      of each piece. Each piece has been inspired by the symmetry and harmony of the
-      world around us - ranging from the mathematical formula for pi to ionic pillars
-      in greek architecture as well as the weightlessness and brightness of Bali and
-      tropical elements.
-      </p>
-  </div>
-    <div class="col center_flex">
-      <img src="../../../assets/images/products/lucerna.png" title="Lucerna Collection" [routerLink]="['/productlucerna']">
+    <div class="row desklucerna">
+        <div class="col-sm-1"></div>
+        <div class="col stump_collection">
+                <h4 [routerLink]="['/productlucerna']">Lucerna Collection<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
+                        arrow_right_alt
+                        </i></a></span></h4>
+               
+              <p class="class_p stump_p" style="right: 0;">
+                  Lucerna highlights the beauty of the curve, reflected in the form and
+                  structure of each piece. Each piece has been inspired by the symmetry
+                  and harmony of the world around us - ranging from the mathematical
+                  formula for pi to ionic pillars in greek architecture as well as the
+                  weightlessness and brightness of Bali and tropical elements.
+              </p>
+        </div>
+        <div class="col stump_img">
+            <img class="stump" src="../../../assets/images/products/lucerna.png" title="Lucerna"  [routerLink]="['/productlucerna']">
+        </div>
+            <div class="col-sm-1"></div>
+  </div>    
+  <div class="row moblucerna">
+      <div class="col-sm-1"></div>
+      <div class="col stump_collection">
+        <h4 [routerLink]="['/productlucerna']">Lucerna Collection<br><span>learn more <a [routerLink]="['/productlucerna']"><i class="material-icons">
+          arrow_right_alt
+          </i></a></span></h4>
+          <img class="lucernaimg" src="../../../assets/images/products/lucerna.png" title="Lucerna Collection" [routerLink]="['/productlucerna']">
+       
+      <p>
+        Lucerna highlights the beauty of the curve, reflected in the form and structure
+        of each piece. Each piece has been inspired by the symmetry and harmony of the
+        world around us - ranging from the mathematical formula for pi to ionic pillars
+        in greek architecture as well as the weightlessness and brightness of Bali and
+        tropical elements.
+        </p>
     </div>
-    <div class="col-sm-1"></div>
-  </div>
+      <div class="col-sm-1"></div>
+    </div>
   <div class="row" style="text-align: center;">
       <div class="col-sm-1"></div>
       <div class="col">
@@ -203,7 +221,7 @@
         </div>
     <div class="row row_border"></div>
   
-    <div class="row">
+    <div class="row deskbratus">
         <div class="col-sm-1"></div>
         <div class="col-sm-3 center_flex trigano_text" style="border-left: none;">
           <p class="class_p">
@@ -221,8 +239,21 @@
                 </i></a></span></h4>
         </div>
         <div class="col-sm-1"></div>
-      </div>  
-
+      </div> 
+      <div class="row mobbratus">
+          <div class="col" style="border-left: none;">
+              <h4 [routerLink]="['/productbratus']">Bratus Collection<br><span>learn more <a [routerLink]="['/productbratus']"><i class="material-icons">
+                  arrow_right_alt
+                  </i></a></span></h4>
+                  <img style="padding-bottom: 2%; width: 100%;" [routerLink]="['/productbratus']" title="Bratus" src="../../../assets/images/products/brats2.png">
+             <p>
+                The Bratus Collection reflects a close connection to nature, and represents the beauty
+                of nature’s contradictions: the rough edges of wood found in nature, with the precise,
+                sleek measurements and forms created by man. The medley of these apparent opposites has
+                created a singular collection that provides a small taste of the wild indoors.
+              </p>
+          </div>
+      </div>
       <div class="row" style="text-align: center;">
             <div class="col-sm-1"></div>
             <div class="col-md-3 col-sm-12">
@@ -298,7 +329,7 @@
             <div class="col-sm-1"></div>
             </div>
             <div class="row row_border"></div>            
-            <div class="row">
+            <div class="row deskmensa">
               <div class="col-sm-1"></div>
               <div class="col stump_collection">
                 <h4 style="margin-right: 0;" [routerLink]="['/mensa']">Mensa Collection<br><span>learn more <a [routerLink]="['/mensa']"><i class="material-icons">
@@ -314,11 +345,25 @@
                 </p>
             </div>
               <div class="col center_flex">
-                <img src="../../../assets/images/comingup/Mensa/Mensa/Mensa.png" title="Mensa Collection" [routerLink]="['/mensa']">
+                <img class="mensaimg" src="../../../assets/images/comingup/Mensa/Mensa/Mensa.png" title="Mensa Collection" [routerLink]="['/mensa']">
               </div>
               <div class="col-sm-1"></div>
             </div>
-
+            <div class="row mobmensa">
+                <div class="col stump_collection">
+                  <h4 [routerLink]="['/mensa']">Mensa Collection<br><span>learn more <a [routerLink]="['/mensa']"><i class="material-icons">
+                    arrow_right_alt
+                    </i></a></span></h4>
+                    <img class="mensaimg" src="../../../assets/images/comingup/Mensa/Mensa/Mensa.png" title="Mensa Collection" [routerLink]="['/mensa']">
+                <p>
+                  Lucerna highlights the beauty of the curve, reflected in the form and structure
+                  of each piece. Each piece has been inspired by the symmetry and harmony of the
+                  world around us - ranging from the mathematical formula for pi to ionic pillars
+                  in greek architecture as well as the weightlessness and brightness of Bali and
+                  tropical elements.
+                  </p>
+              </div>
+              </div>
             <div class="row" style="text-align: center;">
               <div class="col-sm-1"></div>
               <div class="col">

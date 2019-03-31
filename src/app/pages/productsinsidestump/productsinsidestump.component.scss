@@ -5,7 +5,7 @@
     text-align: center;
 }
 h2 {
-    color: #8f7d4f;
+    color: #c3c3c3;
     font-size: 30px;
 }
 .onscroll {
@@ -16,10 +16,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -37,9 +37,12 @@ h2 {
         }
 }
 h4 {
-    color: #8f7d4f;
+    color: #c3c3c3 !important;
     font-size: 25px;
     outline: none;
+    p {
+        color: #c3c3c3 !important;
+    }
 }
 span {
     font-size: 17px;
@@ -48,7 +51,7 @@ span {
     vertical-align: middle;
     cursor: pointer;
     a {
-        color: #8f7d4f;
+        color: #c3c3c3;
     }
     i {
         cursor: pointer;
@@ -83,7 +86,6 @@ p {
         width: 100%;
     }
 }
-
 .deisgn {
     .col h2 {
         margin-top: 20%;

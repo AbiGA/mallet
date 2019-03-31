@@ -17,11 +17,11 @@ export class RobbiechairComponent implements OnInit {
  image2 = "../../../assets/images/productinside/robbiechair/robbie-chair-2.png";
  image3 = "../../../assets/images/productinside/robbiechair/robbie-chair-3.png";
 
- image1_large = "../../../assets/images/productinside/robiechair/robbiechair.png";
+ image1_large = "../../../assets/images/productinside/robbiechair/robiechair.png";
  image2_large = "../../../assets/images/productinside/robbiechair/robbie-chair-2.png";
  image3_large = "../../../assets/images/productinside/robbiechair/robbie-chair-3.png";
 
- mainimage = "../../../assets/images/productinside/robiechair/robbiechair.png";
+ mainimage = "../../../assets/images/productinside/robbiechair/robiechair.png";
 
  changeMainImage(image: any){
    this.mainimage = image;

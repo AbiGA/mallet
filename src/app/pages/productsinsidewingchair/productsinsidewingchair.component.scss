@@ -1,12 +1,11 @@
 .container-fluid, .container{
     padding-top: 4%;
-    padding-bottom: 10%;
 }
 .container {
     text-align: center;
 }
 h2 {
-    color: #8f7d4f;
+    color: #c3c3c3;
     font-size: 30px;
 }
 .onscroll {
@@ -17,10 +16,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -34,11 +33,11 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 h4 {
-    color: #8f7d4f;
+    color: #c3c3c3;
     font-size: 25px;
     outline: none;
 }
@@ -49,7 +48,7 @@ span {
     vertical-align: middle;
     cursor: pointer;
     a {
-        color: #8f7d4f;
+        color: #c3c3c3;
     }
     i {
         cursor: pointer;
@@ -102,13 +101,15 @@ p {
 }
 .banner_heading {    
     position: absolute;
-    top: 30%;
+    top: 18%;
     left: 51%;
     visibility: visible;
    // transform: translate(7%, -192%);
      h4 {
+         color: #c3c3c3;
          p {
              font-size: 18px;
+             color: #c3c3c3;
          }
      }
 }
@@ -120,6 +121,10 @@ p {
 @media (max-width: 1024px) {
     .img_class {
         width: 100%;
+    }
+    .banner_heading {
+        top: 8%;
+        left: 44%;
     }
 }
 
@@ -134,23 +139,29 @@ p {
     .product_heading {
         font-size: 30px;
     }
+    
 }
 
-@media (max-width: 670px) {  
+@media (max-width: 678px) {  
     .img_class {
-        position: absolute;
-        top: 40%;
         width: 100%;
     }
     .banner_heading {
         visibility: hidden;
     }
+    .thumbnail>.col img {
+        width: 100% !important;
+    }
     .top_img {
         visibility: visible;
         display: flex;
     }
+    .similar_products {
+        padding-top: 5%;
+    }
     .col_story {
         text-align: left;
+        padding-top: 25%;
     }
     .deisgn {
         .col p {
@@ -172,7 +183,7 @@ p {
     }
     
  }
- @media (max-width: 670px) {
+ @media (max-width: 678px) {
     .product_heading {
         font-size: 27px;
     }
@@ -203,9 +214,6 @@ p {
     }
     .design_img {
         top: 50%;
-    }
-    .deisgn {
-        padding-bottom: 29%;
     }
 }
 @media (max-width: 360px) {

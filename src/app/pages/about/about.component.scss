@@ -21,11 +21,11 @@ h2 {
 
 .col-sm-10 {
    // border-left: 2px solid #8f7d4f;
-    padding: 0 3%;
+    // padding: 0 3%;
 }
 .col-md-10 {
    // border-left: 2px solid #8f7d4f;
-    padding: 0 3%;
+    // padding: 0 3%;
 }
 
 .col-sm-2 {
@@ -76,8 +76,7 @@ p {
         }
     }
     .tools {
-        padding-left: 5%;
-        padding-bottom: 10%;
+        padding-left: 0 3%;
     }
     .banner_img {
        // padding-top: 15%;
@@ -139,17 +138,19 @@ p {
     }
     .column_border {
         text-align: justify;
-        padding-right: 0;
-        padding-left: 8%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .heading {
-        padding-left: 8%;
+        padding-left: 15px;
+        padding-right: 15px;
         h2 {
             width: 100%;
         }
     }
     .tools {
-        padding-left: 8%;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-bottom: 10%;
     }
     .banner_img {
@@ -163,26 +164,11 @@ p {
  }
 
  @media (max-width: 375px) {
-    .column_border {
-        text-align: justify;
-        padding-right: 0;
-        padding-left: 10%;
-    }
-    .heading {
-        padding-left: 10%;
-        h2 {
-            width: 100%;
-        }
-    }
     p {
         font-size: 11px;
     }
     h2 {
         font-size: 30px;
-    }
-    .tools {
-        padding-left: 10%;
-        padding-bottom: 10%;
     }
     .banner_img {
         //padding-top: 15%;

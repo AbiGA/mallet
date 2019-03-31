@@ -22,6 +22,10 @@ export class ProductsinsidelilokagamiComponent implements OnInit {
 
   mainimage = "../../../assets/images/comingup/Lilo/Kagami/kagami.png";
 
+  changeMainImage(image: any){
+    this.mainimage = image;
+  }
+  
   ngOnInit() {
     $(document).ready(function(){
       $(function() {
