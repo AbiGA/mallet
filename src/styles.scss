@@ -66,6 +66,9 @@ img {
 i.material-icons {
   z-index: 100;
 }
+span {
+  display: none !important;
+}
   @media(max-width: 678px) {
     h2 {
       font-size: 30px !important;
