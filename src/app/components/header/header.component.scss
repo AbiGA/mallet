@@ -103,7 +103,9 @@ img {
   .main-menu {
       background-color: #141414;    
   }
-
+  span {
+      display: block !important;
+  }
   @media (max-width: 1920px) {
     .logo {
       height: 100px;

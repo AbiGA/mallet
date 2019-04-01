@@ -117,6 +117,9 @@ p {
     visibility: hidden;
     display: none;
 }
+span {
+    display: none;
+}
 
 @media (max-width: 1024px) {
     .img_class {
@@ -175,11 +178,8 @@ p {
         line-height: 35px;
         text-align: left;
     }
-    
- }
- @media (max-width: 678px) {
     .product_heading {
-        font-size: 27px;
+        display: none;
     }
  }
  @media (max-width: 414px) {

@@ -120,7 +120,9 @@ p {
     visibility: hidden;
     display: none;
 }
-
+span {
+    display: none;
+}
 @media (max-width: 1024px) {
     .img_class {
         width: 100%;
@@ -143,7 +145,7 @@ p {
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 678px) {
     .img_class {
         position: absolute;
         top: 40%;
@@ -180,6 +182,7 @@ p {
     }
     .product_heading {
         font-size: 35px;
+        display: none;
     }
     h2 {
         padding-top: 10%;
@@ -208,10 +211,6 @@ p {
     .similarproducts {
        padding-bottom: 5%;
     }
-   .product_heading {
-       margin-top: -130%;
-       padding-left: 10%;
-   }
    .col {
        padding-left: 10%;
    }
