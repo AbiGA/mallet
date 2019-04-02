@@ -8,6 +8,10 @@ h2 {
     color: #c3c3c3;
     font-size: 30px;
 }
+.banner {
+    content: url('../../../assets/images/productinside/stumpcollection/robbiesofa/robbie-sofa-inside-black.jpg');
+    width: 100%;;
+}
 .onscroll {
     background-color: white !important;
     transition: background-color 2s;
@@ -33,7 +37,7 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 h4 {
@@ -48,7 +52,7 @@ span {
     font-size: 40px;
 }
 p {
-    color: #8f7d4f;
+    color: #c3c3c3;
 }
 .pie {
     h2 {
@@ -97,8 +101,8 @@ p {
 
 .banner_heading {    
     position: absolute;
-    top: 26%;
-    left: 30%;
+    top: 20%;
+    left: 32%;
     visibility: visible;
    // transform: translate(7%, -192%);
      h4 {
@@ -124,15 +128,19 @@ p {
 }
 
 @media (max-width: 768px) {
+    .banner {
+        content: url('../../../assets/images/mobile_banners/mobile-robbie-sofa-inside-black.jpg');
+        width: 100%;;
+    }
+    .banner_img {
+         margin-top: 0;
+         margin-bottom: 0;
+    }
     .zoomed_image {
         width: 100%;
     }
-    .banner_img {
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
     .banner_heading {
-        top: 6%;
+        top: 18%;
     }
     .banner_heading h4 p {
         width: 90%;
@@ -220,9 +228,6 @@ p {
    .pie h2 p {
        width: 100%;
    }
-   .zoomed_image {
-       margin-top: 28% !important;
-   }
    .design_text {
     margin-top: -84%;
     }
@@ -231,9 +236,6 @@ p {
     }
 }
 @media (max-width: 360px) {
-   .zoomed_image {
-       margin-top: 40% !important;
-   }
    .deisgn {
     padding-bottom: 0;
    }

@@ -56,6 +56,8 @@ import { ProductsinsidemiscellaneousinsulaComponent } from './pages/productsinsi
 import { ProductsinsidemiscellaneouskreoComponent } from './pages/productsinsidemiscellaneouskreo/productsinsidemiscellaneouskreo.component';
 import { ProductsinsidemiscellaneouslouvreComponent } from './pages/productsinsidemiscellaneouslouvre/productsinsidemiscellaneouslouvre.component';
 import { ProductsinsidemiscellaneousquevenComponent } from './pages/productsinsidemiscellaneousqueven/productsinsidemiscellaneousqueven.component';
+import { CareersComponent } from './components/careers/careers.component';
+import { ProductsinsidemiscellaneousstratisComponent } from './pages/productsinsidemiscellaneousstratis/productsinsidemiscellaneousstratis.component';
 
 @NgModule({
   declarations: [
@@ -106,7 +108,9 @@ import { ProductsinsidemiscellaneousquevenComponent } from './pages/productsinsi
     ProductsinsidemiscellaneousinsulaComponent,
     ProductsinsidemiscellaneouskreoComponent,
     ProductsinsidemiscellaneouslouvreComponent,
-    ProductsinsidemiscellaneousquevenComponent
+    ProductsinsidemiscellaneousquevenComponent,
+    CareersComponent,
+    ProductsinsidemiscellaneousstratisComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,10 @@
     padding-left: 0;
     padding-right: 0;
 }
-
+.banner {
+    content: url('../../../assets/images/productinside/lucernacollection/Lucerna/Lucernainside.jpg');
+    width: 100%;;
+}
 .banner_heading {
     position: absolute;
     top: 52%;
@@ -41,10 +44,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -58,7 +61,7 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 .product_heading {
@@ -152,6 +155,14 @@ span {
 }
 
 @media (max-width: 768px) {
+    .banner {
+        content: url('../../../assets/images/mobile_banners/mobile-Lucernainside.jpg');
+        width: 100%;;
+    }
+    .banner_img {
+         margin-top: 0;
+         margin-bottom: 0;
+    }
     .product_heading {
         font-size: 40px;
     }
@@ -181,7 +192,7 @@ span {
     
 }
 
-@media (max-width: 670px) {
+@media (max-width: 678px) {
     .col-sm-6, .col-sm-5, .col {
         padding-left: 10%;
     }
@@ -250,10 +261,6 @@ span {
     .similarproducts {
         padding-top: 20%;
     }
-    .banner_img {
-        margin-top: 30%;
-        margin-bottom: 30%;
-    }
  }
 
 
@@ -269,7 +276,7 @@ span {
        width: 100%;
    }
    .zoomed_image {
-       margin-top: 28% !important;
+       margin-top: 0 !important;
    }
    .design_text {
     margin-top: -84%;
@@ -281,9 +288,6 @@ span {
 @media (max-width: 360px) {
    .product_heading {
        margin-top: -140%;
-   }
-   .zoomed_image {
-       margin-top: 40% !important;
    }
 }
 

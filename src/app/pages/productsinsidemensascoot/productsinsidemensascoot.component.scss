@@ -8,6 +8,10 @@ h2 {
     color: #c3c3c3;
     font-size: 30px;
 }
+.banner {
+    content: url('../../../assets/images/comingup/Mensa/Scoot/scoot-inside-black.jpg');
+    width: 100%;;
+}
 .onscroll {
     background-color: white !important;
     transition: background-color 2s;
@@ -16,10 +20,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -33,7 +37,7 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 .product_heading {
@@ -43,7 +47,6 @@ h2 {
     position: absolute;
     top: 25%;
     left: 55%;
-    width: 100%;
     visibility: visible;
      h4 {
         color: #c3c3c3;
@@ -124,8 +127,8 @@ span {
 }
 
 .banner_img {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 @media (max-width: 1024px) {
@@ -135,16 +138,20 @@ span {
 }
 
 @media (max-width: 768px) {
+    .banner {
+        content: url('../../../assets/images/mobile_banners/mobile-scoot-inside-black.jpg');
+        width: 100%;;
+    }
+    .banner_img {
+         margin-top: 0;
+         margin-bottom: 0;
+    }
     .zoomed_image {
         width: 100%;
     }
     .banner_heading {
         top: 21%;
         right: 7%;
-    }
-    .banner_img {
-        margin-top: 20%;
-        margin-bottom: 20%;
     }
     .story {
         .col p {
@@ -159,12 +166,10 @@ span {
 
 @media (max-width: 678px) {
     .img_class {
-        position: absolute;
-        top: 12%;
         width: 100%;
     }
     .banner_heading {
-        visibility: hidden;
+        display: none;
     }
     .top_img {
         visibility: visible;
@@ -211,37 +216,12 @@ span {
 
  }
  @media (max-width: 414px) {
-     .img_class {
-         top: 2%
-     }
-     .banner_img {
-        margin-top: 40%;
-        margin-bottom: 40%;
-    }
     .pie h2 p {
         width: 100%;
     }
-    .zoomed_image {
-        margin-top: 35%;
-    }
-    .deisgn {
-        padding-bottom: 41%;
-        padding-top: 30%;
-    }
 }
  @media (max-width: 360px) {
-    .product_heading {
-        margin-top: -140%;
-    }
-    .zoomed_image {
-        margin-top: 40%;
-    }
     .deisgn {
         padding-bottom: 5%;
     }
- }
- @media (max-width: 320px) {
-    .img_class {
-        top: 17%;
-    }
- }
+}

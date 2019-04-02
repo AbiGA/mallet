@@ -9,6 +9,10 @@ h2 {
     color: #c3c3c3;
     font-size: 30px;
 }
+.banner {
+    content: url('../../../assets/images/productinside/lucernacollection/pick/pickinside.jpg');
+    width: 100%;;
+}
 .onscroll {
     background-color: white !important;
     transition: background-color 2s;
@@ -17,10 +21,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -34,35 +38,7 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
-        }
-}
-.onscroll {
-    background-color: white !important;
-    transition: background-color 2s;
-    p {
-        color: #c3c3c3 !important;
-    }
-}
-.onscroll_element {
-    color: #8f7d4f;
-    transition: background-color 2s;
-    u {
-        border-bottom: 1px solid #8f7d4f;
-    }
-}
-.otherwise_element {
-    color: #c3c3c3;
-    transition: background-color 2s;
-    u {
-        border-bottom: 1px solid#c3c3c3;
-    }
-}
-.otherwise {
-    background-color: #141414 !important;
-   transition: background-color 2s;
-        p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 .product_heading {
@@ -176,12 +152,20 @@ p {
 }
 
 @media (max-width: 768px) {
-    .zoomed_image {
-        width: 100%;
+    .banner {
+        content: url('../../../assets/images/mobile_banners/mobile-pickinside.jpg');
+        width: 100%;;
     }
     .banner_img {
-        margin-top: 20%;
-        margin-bottom: 20%;
+         margin-top: 0;
+         margin-bottom: 0;
+    }
+    .banner_heading {
+        top: 15%;
+        left: 40%;
+    }
+    .zoomed_image {
+        width: 100%;
     }
     .story {
         .col p {
@@ -292,9 +276,6 @@ p {
    .pie h2 p {
        width: 100%;
    }
-   .zoomed_image {
-       margin-top: 28% !important;
-   }
    .design_text {
     margin-top: -84%;
     }
@@ -305,9 +286,6 @@ p {
 @media (max-width: 360px) {
    .product_heading {
        margin-top: -140%;
-   }
-   .zoomed_image {
-       margin-top: 40% !important;
    }
 }
 

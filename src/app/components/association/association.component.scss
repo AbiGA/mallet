@@ -22,11 +22,18 @@ h4 {
         right: 0;
     }
 }
+@media (max-width: 768px) {
+    h4 {
+        top: 22%;
+    }
+}
 
 @media (max-width: 678px) {
     h4 {
         position: relative !important;
         font-size: 14px !important;
+        text-align: center;
+        top: 45%;
     }
     .col-sm-3 {
         text-align: center !important;

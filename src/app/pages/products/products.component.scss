@@ -14,10 +14,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -31,7 +31,7 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 
@@ -213,7 +213,7 @@ span {
 
 @media (max-width: 768px) {
     .banner {
-        content: url('../../../assets/images/mobile-products-page.jpg');
+        content: url('../../../assets/images/mobile_banners/mobile-products-page.jpg');
     }
     .row_border {
         width: 100%;
@@ -227,7 +227,6 @@ span {
     .class_p {
         width: 100%;
         font-size: 18px;
-        margin-top: 10%;
     }
     
     .wing_collection p {
@@ -255,7 +254,9 @@ span {
     }
     .stump {
         width: 350px;
-        margin-top: 48%;
+    }
+    img.wing {
+        width: 320px !important;
     }
 }
 
@@ -368,13 +369,12 @@ span {
     .class_p {
         width: 100%;
         font-size: 14px;
-        margin-top: 22%;
     }
     .stump {
         width: 260px;
     }
     .stump_p {
-        margin-top: 65%;
+        margin-top: 85%;
     }
     h4 {
         font-size: 20px;
@@ -406,6 +406,9 @@ span {
     .col-sm-6 {
         padding-left: 14%;
     }
+    .mensaimg, .lucernaimg {
+        width: 300px;
+    }
 }
 
 
@@ -429,7 +432,7 @@ span {
         }
     }
     .stump_p {
-        margin-top: 65%;
+        margin-top: 90%;
     }
     .stump {
         width: 205px;
@@ -455,6 +458,12 @@ span {
     }
     .wing_row {
         padding-bottom: 23%;
+    }
+    .mensaimg, .lucernaimg {
+        width: 230px;
+    }
+    p.class_p.wing_p {
+        width: auto;;
     }
 
  }

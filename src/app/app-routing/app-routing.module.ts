@@ -44,6 +44,8 @@ import { ProductsinsidemiscellaneousinsulaComponent } from '../pages/productsins
 import { ProductsinsidemiscellaneouskreoComponent } from '../pages/productsinsidemiscellaneouskreo/productsinsidemiscellaneouskreo.component';
 import { ProductsinsidemiscellaneouslouvreComponent } from '../pages/productsinsidemiscellaneouslouvre/productsinsidemiscellaneouslouvre.component';
 import { ProductsinsidemiscellaneousquevenComponent } from '../pages/productsinsidemiscellaneousqueven/productsinsidemiscellaneousqueven.component';
+import { CareersComponent } from '../components/careers/careers.component';
+import { ProductsinsidemiscellaneousstratisComponent } from '../pages/productsinsidemiscellaneousstratis/productsinsidemiscellaneousstratis.component';
 
 import { from } from 'rxjs';
 
@@ -51,6 +53,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'careers', component: CareersComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'productlucerna', component:ProductsinsideComponent },
@@ -91,6 +94,7 @@ const routes: Routes = [
   { path: 'kreo', component: ProductsinsidemiscellaneouskreoComponent },
   { path: 'louvre', component: ProductsinsidemiscellaneouslouvreComponent },
   { path: 'queven', component: ProductsinsidemiscellaneousquevenComponent },
+  { path: 'stratis', component: ProductsinsidemiscellaneousstratisComponent },
   { path: 'comingup', component: ComingupComponent },
   { path: "**", redirectTo: "error-404" }
 ];

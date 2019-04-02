@@ -18,6 +18,22 @@ h4 {
     font-size: 25px;
     outline: none;
 }
+.banner {
+    content: url('../../../assets/images/comingup/coming-up_hero.jpg');
+    width: 100%;
+}
+.lilo_banner {
+    content: url('../../../assets/images/comingup/lilo-collection.jpg');
+    width: 100%;
+}
+.mensa_banner {
+    content: url('../../../assets/images/comingup/dining-collection.jpg');
+    width: 100%;
+}
+.miscellaneous_banner {
+    content: url('../../../assets/images/comingup/miscellaneous-collection.jpg');
+    width: 100%;
+}
 .row_border {
     margin: 0 auto;
     width: 90%;
@@ -94,6 +110,23 @@ p {
     .dining_ul {
         right: 0 !important;
     }
+    .banner {
+        content: url('../../../assets/images/mobile_banners/mobile-coming-up_hero.jpg');
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .lilo_banner {
+        content: url('../../../assets/images/mobile_banners/mobile-lilo-collection.jpg');
+        width: 100%;
+    }
+    .mensa_banner {
+        content: url('../../../assets/images/mobile_banners/mobile-dining-collection.jpg');
+        width: 100%;
+    }
+    .miscellaneous_banner {
+        content: url('../../../assets/images/mobile_banners/mobile-miscellaneous-collection.jpg');
+        width: 100%;
+    }
     .mis_ul {
         right: 6% !important;
     }
@@ -125,7 +158,7 @@ p {
     }
      .lilo {
          img {
-             margin-top: 59%;
+             margin-top: 0;
          }
          ul {
             top: 65% !important;
@@ -134,7 +167,7 @@ p {
      }
      .dining {
          img {
-             margin-top: 75% !important;
+             margin-top: 0 !important;
          }
      }
      .dining_ul {
@@ -163,19 +196,12 @@ p {
 
 @media (max-width: 375px) {
     .lilo {
-        img {
-            margin-top: 59%;
-        }
         ul {
            top: 53% !important;
            right: 30% !important;
         }
     }
-    .dining {
-        img {
-            margin-top: 75% !important;
-        }
-    }
+
     .dining_ul {
        right: 22% !important;
        top: 100% !important;
@@ -187,9 +213,6 @@ p {
        }
    }
    .miscellaneous {
-       img {
-           margin-top: 90% !important;
-       }
        ul {
           margin-top: 440% !important;
        }
@@ -199,17 +222,9 @@ p {
 
 @media (max-width: 360px) {
     .lilo {
-        img {
-            margin-top: 59%;
-        }
         ul {
            top: 64% !important;
            right: 30% !important;
-        }
-    }
-    .dining {
-        img {
-            margin-top: 75% !important;
         }
     }
     .dining_ul {
@@ -224,9 +239,6 @@ p {
        }
    }
    .miscellaneous {
-       img {
-           margin-top: 90% !important;
-       }
        ul {
           margin-top: 440% !important;
        }
@@ -238,6 +250,9 @@ p {
      h4 {
          font-size: 18px;
      }
+     h2 {
+        font-size: 26px !important;
+    }
      span {
          font-size: 14px;
      }

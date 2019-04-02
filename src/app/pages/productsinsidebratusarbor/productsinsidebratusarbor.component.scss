@@ -11,6 +11,10 @@ h2 {
     color: #c3c3c3;
     font-size: 30px;
 }
+.banner {
+    content: url('../../../assets/images/productinside/bratuscollection/Arbor/arborcentre.jpg');
+    width: 100%;;
+}
 .onscroll {
     background-color: white !important;
     transition: background-color 2s;
@@ -19,10 +23,10 @@ h2 {
     }
 }
 .onscroll_element {
-    color: #8f7d4f;
+    color: #c3c3c3;
     transition: background-color 2s;
     u {
-        border-bottom: 1px solid #8f7d4f;
+        border-bottom: 1px solid #c3c3c3;
     }
 }
 .otherwise_element {
@@ -36,7 +40,7 @@ h2 {
     background-color: #141414 !important;
    transition: background-color 2s;
         p {
-            color: #8f7d4f !important;
+            color: #c3c3c3 !important;
         }
 }
 .product_heading {
@@ -142,7 +146,7 @@ span {
     }
    
     .banner_img {
-        margin-top: 20%;
+        margin-top: 0;
         margin-bottom: 20%;
     }
     .story {
@@ -154,9 +158,13 @@ span {
              margin-top: 0;
          }
      }
+     .banner {
+        content: url('../../../assets/images/mobile_banners/mobile-arborcentre.jpg');
+        width: 100%;;
+    }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 678px) {
     .img_class {
         position: absolute;
         top: 40%;
@@ -221,21 +229,17 @@ span {
        padding-bottom: 5%;
     }
     .banner_img {
-       margin-top: 40%;
        margin-bottom: 40%;
    }
    .pie h2 p {
        width: 100%;
    }
    .zoomed_image {
-       margin-top: 35%;
+       margin-top: 10%;
    }
 }
 @media (max-width: 360px) {
    .product_heading {
        margin-top: -140%;
-   }
-   .zoomed_image {
-       margin-top: 40%;
    }
 }
