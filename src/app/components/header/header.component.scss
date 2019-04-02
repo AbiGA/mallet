@@ -1,10 +1,13 @@
 .logo {
-    height: 120px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     a {
         img {
             visibility:visible; 
-            width: 3%;
+            width: 4.5%;
         }
     }
 }
@@ -15,7 +18,6 @@
 }
 .row {
     background-color: #eaeef2;
-    margin-top: 30px !important;
 }
 nav {
     width: 100%;
@@ -108,7 +110,6 @@ img {
   }
   @media (max-width: 1920px) {
     .logo {
-      height: 100px;
       a {
           img {
               visibility:visible; 
@@ -118,13 +119,13 @@ img {
   }
   }  
 
-  @media (max-width: 1336px) {
+  @media (max-width: 1440px) {
     .logo {
-      height: 100px;
+      height: 120px;
       a {
           img {
               visibility:visible; 
-              width: 9%;
+              width: 8%;
           }
       }
   }
@@ -137,7 +138,7 @@ img {
     }
   }
   .logo {
-    height: 100px;
+    height: 140px;
     a {
         img {
             visibility:visible; 
@@ -149,7 +150,6 @@ img {
 
 @media (max-width: 768px) {
     .logo {
-      height: 100px;
       a {
           img {
               visibility:visible; 
@@ -165,7 +165,6 @@ img {
 
 @media (max-width: 414px) {
   .logo {
-    height: 100px;
     a {
         img {
             visibility:visible; 
