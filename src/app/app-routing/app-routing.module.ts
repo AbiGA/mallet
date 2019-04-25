@@ -46,6 +46,9 @@ import { ProductsinsidemiscellaneouslouvreComponent } from '../pages/productsins
 import { ProductsinsidemiscellaneousquevenComponent } from '../pages/productsinsidemiscellaneousqueven/productsinsidemiscellaneousqueven.component';
 import { CareersComponent } from '../components/careers/careers.component';
 import { ProductsinsidemiscellaneousstratisComponent } from '../pages/productsinsidemiscellaneousstratis/productsinsidemiscellaneousstratis.component';
+import { BlogpageComponent } from '../pages/blogs/blogpage/blogpage.component';
+import { Blog1Component } from '../pages/blogs/blog1/blog1.component';
+import { Blog2Component } from '../pages/blogs/blog2/blog2.component';
 
 import { from } from 'rxjs';
 
@@ -54,6 +57,9 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
   { path: 'careers', component: CareersComponent },
+  { path: 'blogs', component: BlogpageComponent },
+  { path: 'extract1', component: Blog1Component },
+  { path: 'extract2', component: Blog2Component },
   { path: 'contact', component: ContactComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'productlucerna', component:ProductsinsideComponent },

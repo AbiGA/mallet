@@ -316,7 +316,7 @@ img {
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 678px) {
     input[type=submit] {
         margin-top: -1%;
         right: -1%;
@@ -334,10 +334,10 @@ img {
         display: none;
     }
     .tip {
-        position: relative !important;
-        right: 0 !important;
         padding: 3%;
-        top: 0;
+    }
+    .da {
+        padding-right: 0;
     }
     .last {
         text-align: center;

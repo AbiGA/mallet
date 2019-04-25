@@ -3,7 +3,7 @@ i {
     color:#8f7d4f;
     font-size: 30px;
     position: fixed;
-    bottom: 30%;
+    bottom: 25%;
     right: 1%;
 }
 
@@ -13,4 +13,20 @@ div {
 
 #scrolldiv {
     display: none;
+}
+
+@media (max-width: 1024px) {
+    i {
+        bottom: 10%;
+    }
+}
+@media (max-width: 768px) {
+    i {
+        bottom: 11%;
+    }
+}
+@media (max-width: 678px) {
+    i {
+        bottom: 30%;
+    }
 }

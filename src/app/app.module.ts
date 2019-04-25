@@ -58,6 +58,9 @@ import { ProductsinsidemiscellaneouslouvreComponent } from './pages/productsinsi
 import { ProductsinsidemiscellaneousquevenComponent } from './pages/productsinsidemiscellaneousqueven/productsinsidemiscellaneousqueven.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { ProductsinsidemiscellaneousstratisComponent } from './pages/productsinsidemiscellaneousstratis/productsinsidemiscellaneousstratis.component';
+import { BlogpageComponent } from './pages/blogs/blogpage/blogpage.component';
+import { Blog1Component } from './pages/blogs/blog1/blog1.component';
+import { Blog2Component } from './pages/blogs/blog2/blog2.component';
 
 @NgModule({
   declarations: [
@@ -110,7 +113,10 @@ import { ProductsinsidemiscellaneousstratisComponent } from './pages/productsins
     ProductsinsidemiscellaneouslouvreComponent,
     ProductsinsidemiscellaneousquevenComponent,
     CareersComponent,
-    ProductsinsidemiscellaneousstratisComponent
+    ProductsinsidemiscellaneousstratisComponent,
+    BlogpageComponent,
+    Blog1Component,
+    Blog2Component
   ],
   imports: [
     BrowserModule,

@@ -218,6 +218,19 @@ span {
     .row_border {
         width: 100%;
     }
+    #misc {
+        width: auto !important;
+    }
+    #lil {
+        width: auto !important;
+        margin-top: 27%;
+        margin-left: -80%;
+    }
+    #ratio {
+        width: auto !important;
+        margin-left: -90%;
+        margin-top: 29%;
+    }
     h2 {
         font-size: 30px;
     }
@@ -271,7 +284,19 @@ span {
      .desklucerna, .deskbratus, .deskmensa {
          display: none;
      }
-
+     #misc {
+        width: 100% !important;
+    }
+    #lil {
+        width: 100% !important;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #ratio {
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 0;
+    }
     .class_p {
         position: relative;
         width: 100%;
@@ -437,27 +462,27 @@ span {
     .stump {
         width: 205px;
     }
-    .col-sm-10 {
-        padding-left: 18%;
-    }
+    // .col-sm-10 {
+    //     padding-left: 18%;
+    // }
     .trigano_text {
         margin-top: 68%;
     }
     .trigano_flex {
         padding-right: 10%;
     }
-    .col {
-        padding-left: 18%;
-    }
+    // .col {
+    //     padding-left: 18%;
+    // }
     .wing_collection p {
         font-size: 14px;
         text-align: justify;
         width: 80%;
-        margin-top: 47%;
+        margin-top: 22%;
         margin-left: 36%;
     }
     .wing_row {
-        padding-bottom: 23%;
+        padding-bottom: 0;
     }
     .mensaimg, .lucernaimg {
         width: 230px;
