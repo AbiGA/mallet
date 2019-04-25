@@ -268,9 +268,9 @@ span {
     .stump {
         width: 350px;
     }
-    img.wing {
-        width: 320px !important;
-    }
+    // img.wing {
+    //     width: 320px !important;
+    // }
 }
 
  @media (max-width: 678px) {
@@ -286,14 +286,17 @@ span {
      }
      #misc {
         width: 100% !important;
+        height: 100%;
     }
     #lil {
         width: 100% !important;
+        height: 100%;
         margin-top: 0;
         margin-left: 0;
     }
     #ratio {
         width: 100% !important;
+        height: 100%;
         margin-left: 0;
         margin-top: 0;
     }
@@ -315,7 +318,7 @@ span {
             font-size: 14px;
             text-align: justify;
             width: 100%;
-            margin-top: 47%;
+            margin-top: 52%;
             padding-left: 15px;
             padding-right: 15px;
         }
